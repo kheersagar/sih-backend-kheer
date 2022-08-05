@@ -5,6 +5,9 @@ const {getAllTickets} = require("../controllers/ticket");
 const {ticket} =require("../controllers/ticket")
 const {stripe,stripes} = require("../controllers/stripe");
 
+const {homeview} =require("../controllers/homeController");
+
+
 
 router.post("/signup", signup);
 
@@ -16,6 +19,7 @@ router.get("/signout", signout);
 
 router.get("/stripe",stripe );
 router.post("/payment",stripes);
+router.get("/homeview", homeview);
 
 
 
