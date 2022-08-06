@@ -49,15 +49,13 @@ app.get("/user-ticket/:id", (req, res) => {
     res.status(400).send("some error occured");
   }
 });
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
   res.send("hello");
-})
-
+});
 
 //port
-const port = 8000;
+const port = process.env.PORT || 8000;
 //starting a server
 app.listen(port, () => {
   console.log(`app is running at ${port}`);
 });
-
