@@ -13,7 +13,7 @@ const OTPSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: () => Date.now(),
-    index: { expires: "10m" },
+    index: { expires: 60*60*60 },
   },
 });
 
