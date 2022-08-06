@@ -49,6 +49,10 @@ app.get("/user-ticket/:id", (req, res) => {
     res.status(400).send("some error occured");
   }
 });
+app.get("/",(req,res)=>{
+  res.send("hello");
+})
+
 
 //port
 const port = 8000;
@@ -56,3 +60,4 @@ const port = 8000;
 app.listen(port, () => {
   console.log(`app is running at ${port}`);
 });
+
