@@ -2,13 +2,17 @@ const mongoose = require("mongoose");
 const expressLayouts = require("express-ejs-layouts");
 const path = require("path");
 const express = require("express");
-const app = express();
+const QRCode = require("easyqrcodejs-nodejs");
+const fs = require("fs");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
+
+const app = express();
 const authRoutes = require("./routes/auth");
 const ticket = require("./models/ticket");
 const { mongoDbConnection } = require("./MongooseConnection");
+const user = require("./models/user");
 
 // generate pdf
 app.use(expressLayouts);
@@ -52,7 +56,51 @@ app.get("/user-ticket/:id", (req, res) => {
 app.get("/", (req, res) => {
   res.send("hello");
 });
-
+app.get("/generate-qr", (req, res) => {
+  const value = `{
+    key1: value1,
+    key2: value2,
+    key2: value2,
+    key2: value2,   ,
+ }`;
+  try {
+    const background = fs.readFileSync("./assets/monuments/test.jpg");
+    var options = {
+      text: value,
+      width: 360,
+      height: 360,
+      dotScale: 0.4,
+      backgroundImage: background,
+      backgroundImageAlpha: 1,
+      autoColor: true,
+      correctLevel: QRCode.CorrectLevel.H,
+      colorDark: "#000000",
+      colorLight: "#ffffff",
+      dotScaleTiming_H: 0.1,
+      dotScaleTiming_V: 0.1,
+      quality: 1,
+    };
+    var qrcode = new QRCode(options);
+    qrcode.saveImage({
+      path: "./Qr-code/users/qr.png", // save path
+    });
+    qrcode.toDataURL().then((data) => {
+      // console.log(data);
+      //to add qr code to user details
+      // user.findByIdAndUpdate(
+      //   "62ede2c3db94e51d3c623ebf",
+      //   { qr: data },
+      //   (err, result) => {
+      //     if (err) console.log(err);
+      //     else console.log(result);
+      //   }
+      // );
+    });
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
+  res.send("create successfully");
+});
 //port
 const port = process.env.PORT || 8000;
 //starting a server
