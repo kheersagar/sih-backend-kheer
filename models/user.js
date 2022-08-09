@@ -33,14 +33,14 @@ var userSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
-  purchases: {
-    type: Array,
-    default: [],
-  },
-  qr: {
-    type: String,
-    default: "",
-  },
+  purchases: [
+    {
+      qr: {
+        type: String,
+        default: "",
+      },
+    },
+  ],
 });
 
 userSchema

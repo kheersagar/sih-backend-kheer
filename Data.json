@@ -1,0 +1,1032 @@
+[
+  {
+    "id": 1,
+    "name": "Cellular Jail National Memorial",
+    "stateUT": "Andaman and Nicobar",
+    "description": "This may sound a bit dark and depressing but you wouldn’t regret one moment of your time spent here. The dreadful word “Kaala Pani” that we’ve heard since our childhood actually referred to this place. Yes, it’s the former British prison that is now a shrine to the political dissidents it once jailed.. ",
+    "img": "/imagess/cellular_jail_national_memorial.jpg",
+    "time": "9:00 Am to 5:00 Pm",
+    "fee": "Rs.10 per person",
+    "price": 10
+  },
+  {
+    "id": 2,
+    "name": "Museum Circuit",
+    "stateUT": "Andaman and Nicobar",
+    "description": "Since these islands are soaked in history you’d find the museums to be a few of the greatest places to visit in Andaman. Take a tour down the Anthropological Museum giving insights into the lives of the indigenous tribes of the place and the Samudrika Naval Marine Museum in Port Blair offers a glimpse into the biodiversity of marine life.",
+    "img": "/imagess/museum_circuit.jpg",
+    "time": "09:00 am to 05:00 pm",
+    "fee": "RS 50/- per visitor per circuit",
+    "price": 50
+  },
+  {
+    "id": 3,
+    "name": "Rajiv Gandhi Water Sports Complex",
+    "stateUT": "Andaman and Nicobar",
+    "description": "Banana rides, parasailing, jet-skiing, rowboat paddling, speed boat rides, you name it and you got it here at Rajiv Gandhi Water Sports complex. To all the water babies out there: coming here is the first thing to do in Andaman right after you land at Port Blair! ",
+    "img": "/imagess/rajiv gandhi water complex.jpg",
+    "time": "09:00 am to 01:00 pm and 01:30 pm to 04:30 pm.",
+    "fee": "Rs. 10 per person.",
+    "price": 10
+  },
+  {
+    "id": 4,
+    "name": "North Bay Beach",
+    "stateUT": "Andaman and Nicobar",
+    "description": "On North Bay Beach you can walk under the sea and finally visit ‘Octopus’s Garden’! A colorful school of fishes, coral reefs, and various other marine life forms you’ve never seen before would be swimming right by you. After all, North Bay Beach is the finest place for sea walking in Asia and one of the best places to visit in Andaman and Nicobar islands.",
+    "img": "/imagess/North-Bay-Andaman.jpg",
+    "time": "08:00 AM to 04:30 PM",
+    "fee": "Entry Fees. 10 INR per person",
+    "price": 10
+  },
+
+  {
+    "id": 5,
+    "name": "Charminar",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is an important monument of this state. It is located in the capital of the state. This was built in 16th century in Indo-Islamic style. It is a mosque and is built with granite. It is about 56 metre long there are four minarets.There are two balconies in each minaret. This monument is a two storey building. The top floor is a roof-less mosque which faces Mecca.",
+    "img": "/imagess/Charminar.jpg",
+    "time": "9.30 AM to 5.30 PM",
+    "fee": "Rs 20 (Indians), Rs 250 (foreigners)",
+    "price": 20
+  },
+  {
+    "id": 6,
+    "name": "Tirumala Venkateswara Temple",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is the richest temple of the world. This temple is built for Lord Venkateswara and it is one of the most visited shrines in the world. There are no concrete proof for when this temple was built. There are indications about this temple in architectures that were written in 300 AD.",
+    "img": "/imagess/tirumula_venkateswara.jpg",
+    "time": "1:30 am to 12:00 am",
+    "fee": "Rs 50 (Indians), Rs 300 (foreigners)",
+    "price": 50
+  },
+  {
+    "id": 7,
+    "name": "Golconda fort",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is an architectural wonder built by Qutab Shahi Kings. It was a defence fort. Initially, this fort was built by Kakatiya kings using mud in 12th century. Later, more fortified by Qutab Shahi in 16th century. There are many halls, mosques and other architectural marvels inside this fort. The gateway in this fort called Balahisar Darwaza is a must watch.",
+    "img": "/Imagess/Golconda-Fort.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": "Rs 15 (Indians), Rs 200 (foreigners)",
+    "price": 15
+  },
+  {
+    "id": 8,
+    "name": "Falaknuma Palace",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is a palace that was built in 19th century in today’s Hyderabad. it is a hill palace that is built about 2000 feet above the sea level. It is built in Italian style and is one of unique structures in the state.The palace is in the shape of a scorpion. The staircases are made out of marbles and many decorations inside the palace were created using marbles. ",
+    "img": "/Imagess/falaknuma.jpg",
+    "time": "9:30am to 5:30pm (Friday closed)",
+    "fee": "Rs.3,100/ Adult and Rs.2480/ Child",
+    "price": 3100
+  },
+  {
+    "id": 9,
+    "name": "Purani Haveli",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is a U shaped building in Hyderabad. It is a single storied building that is surrounded by two double storied building. It is built in European style and was the resident of prime minister of Qutub Shahi court. It was built in 16th century. You can find a lot of unique and ancient items here. There are a lot of courtyards, balconies and mosaic decorations in the halls.",
+    "img": "/Imagess/purani-haveli.jpg",
+    "time": "10:30 AM to 5 PM",
+    "fee": "Rs.80/ Adult and Rs.15/ Child",
+    "price": 80
+  },
+  {
+    "id": 10,
+    "name": "Chandragiri Fort",
+    "stateUT": "Andhra Pradesh",
+    "description": "This is an 11th century fort and palace that was built during Vijayanagar dynasty. It is a fort for prince till his coronation. When Golconda was attacked by Muslim rulers, the king shifted his palace to this fort. It is an archaeological museum now and is opened for all visitors. This palace is located in Tirupati.",
+    "img": "/Imagess/chandragiri.jpg",
+    "time": "Sunrise to sunset",
+    "fee": "Rs.20/ Adult and Rs.10/ Child",
+    "price": 20
+  },
+  {
+    "id": 11,
+    "name": "Bhongir Fort",
+    "stateUT": "Andhra Pradesh",
+    "description": "This fort is located in Bhongir hill which is 500 feet above the sea level. This fort was built in 12th century. There are a lot of trap doors, underground chambers, moats and other elements of ancient style in this fort.The pond surrounding this fort makes this place more enchanting. It was constructed by Chalukya Dynasty.",
+    "img": "/Imagess/Bhongir-Fort.jpg",
+    "time": "10:00 AM to 05:00 PM",
+    "fee": "Rs.10/ Adult and Rs.5/ Child",
+    "price": 10
+  },
+
+  {
+    "id": 12,
+    "name": "Jawaharlal Nehru Museum",
+    "stateUT": "Arunachal Pradesh",
+    "description": "Jawaharlal Nehru State Museum, founded in the 1980s, exhibits several facets of tribal culture in Arunachal Pradesh. It also showcases the state's natural legacy, making it one of the most interesting historical places of Arunachal Pradesh. The museum houses a huge ethnographic collections.",
+    "img": "/Imagess/jawaharlal_nehru.jpg",
+    "time": "10:30 AM to 5 PM",
+    "fee": "Rs.75/ adult · Rs.50/ Child",
+    "price": 75
+  },
+  {
+    "id": 13,
+    "name": "Khonsa Museum, Tirap",
+    "stateUT": "Arunachal Pradesh",
+    "description": "If you are interested in learning more about the culture and traditions of Arunachal Pradesh, the Khonsa Museum is the best spot to visit. It is located in the town of Khonsa, Tirap District of the state. Constructed in 1956, it houses some of the most remarkable relics from the region's rich cultural heritage.",
+    "img": "/Imagess/khonsa_museum.jpg",
+    "time": "10:00 am – 5:00 pm",
+    "fee": " Indians : Rs.10, Foreigners Rs. 100/-.",
+    "price": 10
+  },
+  {
+    "id": 14,
+    "name": "Ita Fort",
+    "stateUT": "Arunachal Pradesh",
+    "description": "Ita Fort, also known as the Fort of Bricks, is one of the most visited historical places of Arunachal Pradesh. The town is named Itanagar after Ita Fort, which has an uneven structure. The fort dates back to the 14th to 15th centuries and still stands tall, oozing with majesty and nobility.It is an irregularly shaped ancient fort constructed primarily of bricks of varied sizes. ",
+    "img": "/Imagess/Ita-Fort.jpg",
+    "time": "8:00 AM - 4:00 PM",
+    "fee": " Indians : Rs.25, Foreigners Rs. 75/-.",
+    "price": 25
+  },
+
+  {
+    "id": 15,
+    "name": "Rang Ghar",
+    "stateUT": "Assam",
+    "description": "Rang Ghar is often regarded as the ‘Colosseum of the East’. Being one of the oldest surviving amphitheaters in Asia, Rang Ghar is one of the best Sivasagar historical sites in Assam. Rang Ghar meaning the ‘House of Entertainment’ was originally a two-storied building. It was used as a royal sports pavilion, especially during the Rongali Bihu Festival.",
+    "img": "/Imagess/Rang_Ghar.jpg",
+    "time": "09:00 AM to 05:00 PM",
+    "fee": "INR 5 per person.",
+    "price": 5
+  },
+  {
+    "id": 16,
+    "name": "Sukapha Samannay Kshetra",
+    "stateUT": "Assam",
+    "description": "Sukapha Samannay Kshetra is built in the honor of the first Ahom king of Assam, Sukapha or Siu-Ka-Pha. He was the founder of the Ahom dynasty, which continued for nearly 600 years. Located in Mohbandha near Jorhat and Derain, it is one of the best historical places in Assam you can visit.",
+    "img": "/Imagess/Sukapha-Samannay-Kshetra.jpg",
+    "time": " 09:30 am – 04:30 pm",
+    "fee": "Rs.10/ adult · Rs.5/ Child",
+    "price": 10
+  },
+
+  {
+    "id": 17,
+    "name": "Srikrishna Science Centre",
+    "stateUT": "Bihar",
+    "description": "Considered as one of the important places to visit in Patna, this magnificent and well-equipped science centre was built in 1978. This place is known for showcasing a vast collection of amazing exhibits of well-demonstrated principles of science. Whether you’re a kid or an adult, this place has a vast option of things to experience.",
+    "img": "/Imagess/shrikrishna_science_centre.jpg",
+    "time": "9:30 AM-6:30 PM",
+    "fee": "Rs.35.00 per head",
+    "price": 35
+  },
+  {
+    "id": 18,
+    "name": "Patna Planetarium",
+    "stateUT": "Bihar",
+    "description": "Situated at the city of Patna, the Patna Planetarium is considered one of the oldest and also the largest planetariums of Asia. Reflecting the modern state of the art projection system, and also a well-designed complex with a chic auditorium. Inside the auditorium, there is a wide range of film shows displayed which are relevant to the astronomy. ",
+    "img": "/Imagess/patna_planetarium.jpg",
+    "time": "11:00 am – 6:00 pm",
+    "fee": "Rs.50.00 per head",
+    "price": 50
+  },
+  {
+    "id": 19,
+    "name": "Patna Museum",
+    "stateUT": "Bihar",
+    "description": " Locally called the Jadu Ghar, the Patna Museum is one of the top places to visit in Bihar. This place is known for holding around 50,000 rare art objects which are worth admiring. Alongside that, there are Indian artefacts dated from the middle ages, British Colonial Era and also the ancient period. This place has a rich collection which reflects the Indian history.  ",
+    "img": "/Imagess/Patna_Museum.jpg",
+    "time": "10:30 AM-4:30 PM (Monday closed) ",
+    "fee": "Indian: INR 15, Foreign Tourists: INR 250",
+    "price": 15
+  },
+  {
+    "id": 20,
+    "name": "Sanjay Gandhi Botanical Garden",
+    "stateUT": "Bihar",
+    "description": " Locally called Sanjay Gandhi Jaivik Udyan, this botanical garden was founded in 1969. This is one of the best places to visit in Patna for couples which is home to a vast variety of flora and fauna. The botanical garden is also called the Patna zoo and people come here to enjoy some exciting things like elephant ride and toy train.",
+    "img": "/Imagess/Sanjay_Gandhi.jpg",
+    "time": "8 AM-5:30 PM",
+    "fee": "Rs.30/ adult · Rs.10/ Child",
+    "price": 30
+  },
+
+  {
+    "id": 21,
+    "name": "Government Museum and Art Gallery",
+    "stateUT": "Chandigarh",
+    "description": "The Government Museum and Art Gallery came into existence due to the Partition of 1947. When the country was divided into India and Pakistan, the rich collection of artifacts housed at the Central Museum in Lahore was also divided between the two countries.",
+    "img": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+    "time": "10:00 am to 4:30 pm (Monday closed)",
+    "fee": "Rs.10 per person",
+    "price": 10
+  },
+  {
+    "id": 22,
+    "name": "Pinjore Gardens",
+    "stateUT": "Chandigarh",
+    "description": "Modeled on the Shalimar Bagh in Srinagar, Pinjore Gardens near Chandigarh was built in the 17th century to serve as a summer retreat of the Mughal Emperor, Aurangzeb. It was built by his foster brother, Nawab Fidai Khan Koka aka Muzaffar Hussain. Later, it was renovated and expanded by Maharaja Yadavindra of the Patiala dynasty. ",
+    "img": "/Imagess/pinjore_gardens.jpg",
+    "time": "7:00 am to 10:00 pm",
+    "fee": "Rs. 20 per person",
+    "price": 20
+  },
+  {
+    "id": 23,
+    "name": "Ramgarh Fort",
+    "stateUT": "Chandigarh",
+    "description": "It will take you less than 40 minutes to drive down from Chandigarh to Ramgarh Fort, one of the most fascinating historical places near Chandigarh. This fort owes its origin to the king of Bilaspur, who built it about 360 years ago. The edifice came under the control of quite a few rulers during the course of its history and at present, it serves as a heritage hotel.",
+    "img": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+    "time": "10:00 am to 10:00 pm",
+    "fee": "Rs.15 per person",
+    "price": 15
+  },
+
+  {
+    "id": 24,
+    "name": "Laxman Temple",
+    "stateUT": "Chhattisgarh",
+    "description": " Once the capital of the Kachari kings in medieval times, Kahaspur is one of the famous historical places in Assam that many history buffs love to visit. This place exhibits the rich cultural heritage of Assam and the glory of Khaspur can be seen in its ruins today. Khaspur is famous for its Kachari Fort, which served as the royal seat of the Kachari Dynasty.",
+    "img": "/Imagess/Laxman_Temple.jpg",
+    "time": "5:00 am to 9:00 pm",
+    "fee": "300 INR",
+    "price": 300
+  },
+  {
+    "id": 25,
+    "name": "Kutumsar Caves and Kailash Gufa",
+    "stateUT": "Chhattisgarh",
+    "description": "Kotumsar Caves and Kailash Gufa are beautiful historical places in Chhattisgarh which are located amidst the dense forests in proximity to the Tiratgarh Waterfalls. Situated at a distance of 40 km from Jagdalpur, the caves are ranked second in the list of longest natural caves in the world. ",
+    "img": "/Imagess/kutumsar caves.jpg",
+    "time": "06:00 AM to 05:00 PM",
+    "fee": "Entry Fees. 25 INR per person",
+    "price": 25
+  },
+
+  {
+    "id": 26,
+    "name": "Hirwa Van Garden",
+    "stateUT": "Dadra & Nagar Haveli and Daman & Diu",
+    "description": "Yet another spectacular garden in the Union Territory, the only difference being that it is forest made by man. Situated on the Silvassa – Dadra road, the garden is a superb specimen of architecture. Mesmerizing waterfalls, beautiful cascades, small springs, stone walls, arches, lush greenery, in fact, everything about Hirwa Van Garden is amazing.",
+    "img": "/Imagess/hirwa_van_garden.jpg",
+    "time": "10:00 am - 08:00 pm",
+    "fee": "Rs. 25 per person.",
+    "price": 25
+  },
+  {
+    "id": 27,
+    "name": "Silvassa Vasona Lion Safari",
+    "stateUT": "Dadra & Nagar Haveli and Daman & Diu",
+    "description": "Covering an area of 20 hectares of land, Vasona’s Lion Safari gives you a thrilling experience. After all, is it not exciting to have the opportunity of watching lion in its home rather than the cage where its space and movement are restricted? Lion Safari Park is 9 kms from Silvassa. ",
+    "img": "/Imagess/silvassa-vasona-lion.jpg",
+    "time": "9 am to 5 pm",
+    "fee": "Rs.25 per person",
+    "price": 25
+  },
+  {
+    "id": 28,
+    "name": "Tribal Cultural Museum",
+    "stateUT": "Dadra & Nagar Haveli and Daman & Diu",
+    "description": "A trip to any destination is never complete without visiting the places that highlight the history of the place and its past and present lifestyle. Tribal Cultural Museum in Dadra and Nagar Haveli give you an insight into the rich cultural heritage of the tribals of the land.",
+    "img": "/Imagess/tribal cultural museum_dadra_and _nagar_haveli.jpg",
+    "time": "12:00 PM to 08:00 PM",
+    "fee": "Rs.10 (Indians) Rs.100 (Foreigners)",
+    "price": 10
+  },
+
+  {
+    "id": 29,
+    "name": "Red Fort (Lal Qila)",
+    "stateUT": "Delhi",
+    "description": "The beautiful Red Fort (Lal Qila) was built by Shah Jahan in 1648 and served as the seat of Mughal power until 1857. This stunning structure, with its tall, red sandstone walls covers an area of more than two square kilometers, the entirety of which is crescent shaped and surrounded by a moat. It is proof of the glory of the flourishing Mughal Empire in Delhi.",
+    "img": "/Imagess/red_fort.jpg",
+    "time": "Sunrise to sunset. (Only monday closed)",
+    "fee": "Rs.10 (Indians) Rs.250 (Foreigners)",
+    "price": 10
+  },
+  {
+    "id": 30,
+    "name": "Qutub Minar",
+    "stateUT": "Delhi",
+    "description": "Completed in the 12th century, the beautiful Qutub Minar is India's tallest minaret. It's also now a UNESCO Word Heritage Site that attracts many international visitors eager to climb to the top for its breathtaking views of the surrounding area. The complex also includes the Quwwat-ul-Islam Masjid, a mosque at the base of the tower, a gateway built in 1310.",
+    "img": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": "Rs.10 (Indians) Rs.250 (Foreigners)",
+    "price": 10
+  },
+
+  {
+    "id": 31,
+    "name": "The Church Of Our Lady Of Immaculate Conception",
+    "stateUT": "Goa",
+    "description": "Aguada is a Portuguese word which means Water so basically this Fort was renowned as the biggest water reservoir in Asia. As you will visit the campus of  Aguada Fort you can easily remember the scenes by several Bollywood movies which were shot here. You will be amused by the beauty of this place.",
+    "img": "/Imagess/Our_Lady_of_the_Immaculate_Conception_Church.jpg",
+    "time": "10:00 am – 12:30 pm",
+    "fee": " Rs 10/Adults.",
+    "price": 10
+  },
+
+  {
+    "id": 32,
+    "name": "Laxmi Vilas Palace",
+    "stateUT": "Gujarat",
+    "description": "One of the most famous historical places in Gujarat, Laxmi Vilas Palace serves as the residence for Vadodara’s royal family, Gaekwad. The property has its history dating back to 1890 when it was built by Maharaja Sayaji Rao III. Spanning across an area of 500 acres, the facade itself is intricately designed using the Indo-Saracenic Revival style architecture.",
+    "img": "/Imagess/Laxmi-Vilas-Palace.jpg",
+    "time": "9:00 am to 5:00 pm",
+    "fee": "Rs.225(Indians) Rs.400 (Foreigners)",
+    "price": 225
+  },
+  {
+    "id": 33,
+    "name": "Vijay Vilas Palace",
+    "stateUT": "Gujarat",
+    "description": "Located in Mandvi Beach, Vijay Vilas Palace was built by Rao Vijayraj Ji in 1929. Back in the time, it primarily served as a summer house for the Jadeja rulers of Kutch province. The palace covers a massive area of 450 acres, which is adorned with manicured garden and a private beach spread across two kilometers. Some part of the palace has been converted into a luxury heritage resort.",
+    "img": "/Imagess/vijay_vilas.jpg",
+    "time": "9:00AM – 6:00PM",
+    "fee": "INR 50 per person.",
+    "price": 50
+  },
+  {
+    "id": 34,
+    "name": "Rani Ki Vav",
+    "stateUT": "Gujarat",
+    "description": "Rani Ki Vav was built by Udayamati, in the memory of her husband King Bhimdev 1, in 1063 AD. This massive stepwell was used to take out water from River Saraswati, which has dried today. This is one of the most iconic archeological sites of Gujarat, located in Patan. This is a UNESCO World Heritage Site which displays the rich history and artistry of the state.",
+    "img": "/Imagess/rani_ki_vav.jpg",
+    "time": " 08:00 am – 06:00 pm",
+    "fee": "Rs.5 (Indians) Rs.128 (Foreigners)",
+    "price": 5
+  },
+  {
+    "id": 35,
+    "name": "Nani Daman Fort",
+    "stateUT": "Gujarat",
+    "description": "A famous landmark in Daman, Nani Daman Fort or Fort of St. Jerome is a rather small citadel. The exterior features three bastions and 2 doorways, and the massive statue of St. Jerome on the embankment. The ancient monument was built in 1672 AD, by the twelfth Portuguese Viceroy of India, Dom Jeronimo. Today, the Nani Daman Fort serves as an educational institute, with a view to savor!",
+    "img": "/Imagess/nani_daman_fort.jpg",
+    "time": "06:00 AM to 04:00 PM",
+    "fee": "Entry Fees. 15 INR per person",
+    "price": 15
+  },
+
+  {
+    "id": 36,
+    "name": "Sultanpur Bird Sanctuary",
+    "stateUT": "Haryana",
+    "description": "One of the most popular weekend getaways near Gurgaon, New Delhi, Noida, and Faridabad, Sultanpur Bird Sanctuary is located about 40 km away from the landmark Dhaula Kuan in Delhi. A favourite amongst hikers, nature lovers and bird watching enthusiasts, the bird sanctuary has been declared a National Park.",
+    "img": "/Imagess/sultanpur-national-park-bird-sanctuary.jpg",
+    "time": "08:00 AM to 06:30 PM",
+    "fee": "Rs.5 per person",
+    "price": 5
+  },
+  {
+    "id": 37,
+    "name": "Museum Of Folk And Tribal Art",
+    "stateUT": "Haryana",
+    "description": "The Folk and Tribal Art Museum, located in Gurgaon, was established in 1984 by the late K.C.Aryan. The museum has one of the most exclusive collections of Indian folk, tribal and neglected art as well as a priceless collection of priceless artifacts that include bronze sculptures, paintings etc.",
+    "img": "/Imagess/museum of folk and tribal art.jpg",
+    "time": "10am–5:15pm",
+    "fee": "Rs.10(Indians) Rs.250 (Foreigners)",
+    "price": 10
+  },
+  {
+    "id": 38,
+    "name": "Farrukh Nagar Fort",
+    "stateUT": "Haryana",
+    "description": "Built in the year 1732 by the Mughal emperor Faujdar Khan, the Farrukhnagar fort is the quintessential Mughal structure, adorned by various designs dating back to the said era. Featuring an octagonal shape, the fort is also home to one of the most distinguished bastions in the country.The fort was in ruins up until 2009, when some reconstruction was done to it by INTACH. ",
+    "img": "/Imagess/farrukh-nagar-fort.jpg",
+    "time": "09:00 AM to 06:00 PM",
+    "fee": "Rs. 5 per person",
+    "price": 5
+  },
+  {
+    "id": 39,
+    "name": "Kingdom of Dreams",
+    "stateUT": "Haryana",
+    "description": "A first of its kind of live entertainment in the country has been set up at Kingdom of Dreams, in the Sector-29, Gurugram. The entertainment center was inaugurated by Haryana Chief Minister on January 29, 2010. Kingdom of Dreams Opera Theater It is a unique cultural center in itself In this Opera theater,  one can have the glimpses of European countries in one place.",
+    "img": "/Imagess/kingdom_of_dreams.jpg",
+    "time": "12:30 AM  - 12:00 PM",
+    "fee": " INR 600 onwards",
+    "price": 600
+  },
+  {
+    "id": 40,
+    "name": "Kalpana Chawla Planetarium",
+    "stateUT": "Haryana",
+    "description": "Kalpana Chawla Memorial Planetarium has been setup at Kurukshetra-Pehowa road (near Jyotisar Tirth) by Haryana State Council for Science & Technology, Govt. of Haryana in joint collaboration with National Council for Science Museums, Ministry of Culture, Govt. of India in memory of India’s first woman Astronaut Dr. Kalpana Chawla.",
+    "img": "/Imagess/kalpana chawla planetarium.jpg",
+    "time": "10am–4:30pm",
+    "fee": "Rs. 30 (planetarium) & Rs. 15 (Gallery) ",
+    "price": 30
+  },
+
+  {
+    "id": 41,
+    "name": "Rashtrapati Niwas",
+    "stateUT": "Himachal Pradesh",
+    "description": "The Rashtrapati Niwas also known as the Viceregal Lodge is one of the historical monuments in Himachal Pradesh. It not only shows the history of the state but of the entire country. The Rashtrapati NIwas is situated on the Observatory Hills of Shimla and was the home of the Viceroy Of India during the colonial rule. It contains many historic artefacts of the British rule.",
+    "img": "/Imagess/Rashtrapati Niwas .jpg",
+    "time": "10:00 am - 05:00 pm",
+    "fee": "Rs.30(Indians) Rs.65 (Foreigners)",
+    "price": 30
+  },
+  {
+    "id": 42,
+    "name": "Kangra Fort",
+    "stateUT": "Himachal Pradesh",
+    "description": "The Kangra Fort can be traced back to the Trigarta Kingdom, mentioned in the epic Mahabharata and is one of the largest and oldest forts in India. The history of this fort is very interesting, especially the fact that so many big rulers were unable to conquer this fort. The fort consists of two very old temples; the Laxmi Narayan temple and the Ambika Mata Temple.",
+    "img": "/Imagess/kangra-fort.jpg",
+    "time": "9am–7:30pm",
+    "fee": "Rs.150(Indians) Rs.300 (Foreigners)",
+    "price": 150
+  },
+
+  {
+    "id": 43,
+    "name": " Kiramchi",
+    "stateUT": "Jammu & Kashmir",
+    "description": "Assignable to eight-ninth century A.D., this group consists of five temples. Three have been constructed on a common platform and the remaining two on a separate platform. Four temples face east and the smaller temple faces west. The four temples comprise of garbhagriha with curvilinear sikhara and an antarala with sukanasika.",
+    "img": "/Imagess/KrimachiTemple.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 44,
+    "name": "Ram Nagar Palace, Udhampur",
+    "stateUT": "Jammu & Kashmir",
+    "description": "The Purna Mahal was built by Raja Suchet Singh (AD 1801-1844). The palace is a fairly big complex of rooms rising to three storeys having high walls and watch towers at regular intervals. The walls of the rooms are decorated with stucco work and painted with floral designs. The wooden ceilings are also decorated.",
+    "img": "/Imagess/Ramnagar-Fort.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 300
+  },
+  {
+    "id": 45,
+    "name": "Avantiswami Temple, Avantipur",
+    "stateUT": "Jammu & Kashmir",
+    "description": "Avantipur  is located 28 km south east of Srinagar in Anantnag district overlooking the Jhelum river. The foundation of the town is ascribed to Avantivarman (AD 855 – 883 AD), the first king of the Utpala dynasty.",
+    "img": "/Imagess/avantiswami.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+
+  {
+    "id": 46,
+    "name": "Nakshatra Van",
+    "stateUT": "Jharkhand",
+    "description": "It is a park created by the Jharkhand Forest Department in front of the Jharkhand Raj Bhawan (Governor's Residence) in Ranchi, the capital of Jharkhand, a state of India. A nakshatra or lunar mansion is one of the 27 or 28 divisions of the sky, identified by the prominent star(s) in them that the Moon passes through during its monthly cycle, as used in Hindu astronomy and astrology. ",
+    "img": "/Imagess/nakshatra van.jpg",
+    "time": " 9:00 AM - 6:30 PM",
+    "fee": "INR 5 for an adult and INR 3 for child",
+    "price": 5
+  },
+  {
+    "id": 47,
+    "name": "Biodiversity Park",
+    "stateUT": "Jharkhand",
+    "description": "Surrounded by native vegetation and lush greenery, Biodiversity Park is one of the most popular tourist places in Ranchi. Constructed with the mission of protecting medicinal plants and herbs, the Biodiversity park is every Botanist’s dream. It is managed by the forest department of Ranchi and offers a variety of natural experiences such as trekking and hiking .",
+    "img": "/Imagess/biodiversity park.jpg",
+    "time": "10 am to 5 pm.",
+    "fee": "Adult- Rs. 40/- Children-Rs. 20 /-",
+    "price": 40
+  },
+  {
+    "id": 48,
+    "name": "Rock Garden",
+    "stateUT": "Jharkhand",
+    "description": "Built entirely from the rocks of Gonda Hill, Ranchi’s Rock garden is complete in itself with waterfalls, sculptures, art and unrivaled views. Located on a small hill by the Kanke Dam, it is an impressive place to relax during your free time. Surrounded by lush greenery, the view from the garden is striking.  Do not miss out on the sunset that will surely leave you wanting for more!",
+    "img": "/Imagess/rock garden.jpg",
+    "time": "9:00 am to 8:00 pm.",
+    "fee": "Adult- Rs. 200/- Children-Rs. 100 /-",
+    "price": 200
+  },
+
+  {
+    "id": 49,
+    "name": "Group of Monuments at Hampi",
+    "stateUT": "Karnataka",
+    "description": "The epitome of the glorious architecture of the Vijayanagara Empire, The Group of Monuments at Hampi are listed among UNESCO World Heritage Sites in India. Nestled along the Tungabhadra River, Hampi comprises ruins that reveal incredible architecture, sculptures, and stories of the bygone era. ",
+    "img": "/Imagess/group of monuments ata hampi.jpg",
+    "time": "06:00 AM – 06:00 PM",
+    "fee": "Rs.40/-( Indians) Rs.600( Foreigners)",
+    "price": 40
+  },
+  {
+    "id": 50,
+    "name": "Mysore Palace",
+    "stateUT": "Karnataka",
+    "description": "When talking about the historical monuments of Karnataka, it is impossible to not mention the spectacular Mysore Palace. The royal official residence and seat of the Wodeyars (1399 to 1950), the palace is one of the most famous places to see in Mysore, Karnataka.The magnificent palace has an Indo-Saracenic layout with blend of Hindu, Islamic and Gothic architectural styles. ",
+    "img": "/Imagess/Mysore_Palace.jpg",
+    "time": "10.00AM – 5.30 PM.",
+    "fee": "Adult- Rs. 70/- Children-Rs. 30 /-",
+    "price": 40
+  },
+  {
+    "id": 51,
+    "name": "Badami Cave Temples",
+    "stateUT": "Karnataka",
+    "description": "Paying tribute to the vast and glorious rule of Chalukyas, next on our list is one of the popular historical monuments in Karnataka. Badami Cave temples in Badami are the epitome of the skill of arts, crafts and architecture.The four cave temples of Badami were built between the 6th and 7th centuries.",
+    "img": "/Imagess/badami caves.jpg",
+    "time": "6.00 AM – 6.00 PM",
+    "fee": "Rs.25/-( Indians) Rs.300( Foreigners)",
+    "price": 25
+  },
+  {
+    "id": 52,
+    "name": "Bangalore Palace",
+    "stateUT": "Karnataka",
+    "description": "In the heart of India’s and not just Karnataka’s most modern cities’, lies a legacy of the recent days of history, the Bangalore Palace. The Wodeyar rulers built the beautiful palace in 1944. Inspired from castles of Normandy and England, the Bangalore Palace is known for magnificent woodcarvings and Tudor-style architecture.",
+    "img": "/Imagess/bangalore-palace.jpg",
+    "time": "10:00 AM - 5:30 PM",
+    "fee": "Indian: INR 230, Foreigner: INR 460",
+    "price": 230
+  },
+
+  {
+    "id": 53,
+    "name": "Mattancherry Palace",
+    "stateUT": "Kerala",
+    "description": "Popularly known as the Dutch Palace, the Mattancherry Palace is a Portuguese palace in Mattancherry, Kochi. The Mattancherry Palace was originally built by the Portuguese who later gifted it to the King of Cochin in 1555. It is now a museum displaying paraphernalia belonging to the rajas of Kochi. ",
+    "img": "/Imagess/Mattancherry-Palace.jpg",
+    "time": "10:00AM-5:00PM ( Friday closed)",
+    "fee": " Adult: INR 2, Kids (up to 15 years): Free",
+    "price": 2
+  },
+  {
+    "id": 54,
+    "name": "Fort Kochi",
+    "stateUT": "Kerala",
+    "description": "Fort Kochi is a seaside town in the south-western part of Main Kochi which is known for its old-world colonial charm. This quaint city is dotted with European structures and has an overall ambience that keeps reminding you of the colonial powers that once ruled over the place. The main attraction of this beach is the historic fort, which is a perfect example of European architecture",
+    "img": "/Imagess/fortekochi.jpg",
+    "time": "09.30 am to 07.00 pm",
+    "fee": "Adult Rs 100 and Students Rs 50.",
+    "price": 100
+  },
+
+  {
+    "id": 56,
+    "name": "Beklal fort",
+    "stateUT": "Kerala",
+    "description": "Built almost 300 years ago, Bekal Fort is considered one of the largest and most preserved forts in Kerala. It is surrounded by a beautiful beach offering an enchanting view of the Arabian Sea from its high observation tower where once the cannons were placed. The fort was featured in the popular A R Rahman song ' Tu hi re'.",
+    "img": "/Imagess/bekal fort.jpg",
+    "time": "8.00 am to 5.30 pm",
+    "fee": "Rs.5/-( Indians) Rs.100( Foreigners)",
+    "price": 5
+  },
+  {
+    "id": 57,
+    "name": "Edakkal Caves",
+    "stateUT": "Kerala",
+    "description": "Famous for its exquisite rock and wall carvings, the pre-historic Edakkal Caves are two naturally occurring alcoves located in the Wayanad district of Kerala. The caves measure at a massive length and width of 96 and 22 feet respectively and lie 1200 metres above the sea level.  One needs to trek for one and half hour to hit the cave entrance, and another 45 minutes to reach the mouth of the cave.",
+    "img": "/Imagess/Edakkal-Caves.jpg",
+    "time": "9:30 AM - 4:30 PM",
+    "fee": "Indians: INR 20, Foreigners: INR 40",
+    "price": 20
+  },
+  {
+    "id": 58,
+    "name": "Shakthan Thampuran Palace",
+    "stateUT": "Kerala",
+    "description": "Shakthan Thampuran Palace situated in the town of Thrissur marks the royal residence of the king of Cochin and has been a famous tourist attraction because of its historical value. Popularly known as Vadakkekara Palace, it dated back to the time of the King of Cochin named Rama Varma Shakthan Thampuran.",
+    "img": "/Imagess/Shakthan_Thampuran_Palace.jpg",
+    "time": "9:30 AM - 4:30 PM (Monday Closed)",
+    "fee": "Adults: Rs. 20 & Child- Rs. 5",
+    "price": 20
+  },
+
+  {
+    "id": 59,
+    "name": "Leh Palace, Leh",
+    "stateUT": "Ladakh",
+    "description": "Leh Palace also known as Lachen Palkar Palace is a former royal palace overlooking the city of Leh in Ladakh, India.  It was constructed circa 1600 by Sengge Namgyal. The palace was abandoned when Dogra forces took control of Ladakh in the mid-19th century and forced the royal family to move to Stok Palace.",
+    "img": "/Imagess/Leh-Palace.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+
+  {
+    "id": 60,
+    "name": "The Great Stupa of Sanchi",
+    "stateUT": "Madhya Pradesh",
+    "description": "Sanchi Stupa enjoys extraordinary fame as far as historical places in Madhya Pradesh are concerned. Calling this site ‘historical’ would be an understatement as its construction dates back to as far as the 2nd and 1st century BC. This site features monasteries, temples, and palaces which exhibit the details of Lord Buddha’s life.",
+    "img": "/Imagess/greatstupa of sanchi.jpg",
+    "time": "8:30 AM to 5:30 PM.",
+    "fee": "Rs.40 (Indians) Rs.600 (Foreigners)",
+    "price": 40
+  },
+  {
+    "id": 61,
+    "name": "The Khajuraho Group of Temples",
+    "stateUT": "Madhya Pradesh",
+    "description": "Probably the most famous historical temples in the entirety of India, The Khajuraho Complex of Temples is a site you should not miss on your visit to Madhya Pradesh regardless of your area of interest. The complex encompasses numerous Hindu, Jain, and Buddhist temples.",
+    "img": "/Imagess/khajuraho.jpg",
+    "time": "8 AM to 6 PM.",
+    "fee": "Rs.40 (Indians) Rs.600 (Foreigners)",
+    "price": 40
+  },
+  {
+    "id": 62,
+    "name": "Gwalior Fort",
+    "stateUT": "Madhya Pradesh",
+    "description": "If you find hill forts fascinating, Gwalior Fort will give the history buff in you every reason to fall in love with this structure sitting atop a hill in Gwalior. The inscriptions, the monuments, and the architecture of the fort – each boasts an unprecedented diligence and charm. A visit to the fort will take you back in time when this culturally rich city was ruled by Tomars. ",
+    "img": "/Imagess/gwalior fort.jpg",
+    "time": "8 AM to 6 PM.",
+    "fee": "Rs.75/-( Indians) Rs.250( Foreigners)",
+    "price": 75
+  },
+  {
+    "id": 63,
+    "name": "Bhimbetka Rock Shelters",
+    "stateUT": "Madhya Pradesh",
+    "description": "If you are on a quest to unravel the historical wealth of Madhya Pradesh, Bhimbetka Rock Shelters are unmissable. Featuring a collection of almost 700 rock shelters, this site is an archaeologist’s wildest dream. Moreover, around 200 of these caves have on display almost 30,000-year-old paintings.",
+    "img": "/Imagess/bhimbetka.jpg",
+    "time": "7 AM to 6 PM.",
+    "fee": "Rs.25 (Indians) Rs.500 (Foreigners)",
+    "price": 25
+  },
+  {
+    "id": 64,
+    "name": "Jami Masjid",
+    "stateUT": "Madhya Pradesh",
+    "description": "One of the most captivating structures in Madhya Pradesh, Jama Masjid located in the historical town of Mandu is a go-to place. This site gives you the dual experience of spirituality and cultural extravaganza simultaneously.The design of the mosque, built during the reign of Hoshang Shah, follows Mughal architecture and is extremely photogenic.",
+    "img": "/Imagess/Jami_Masjid.jpg",
+    "time": "6 AM to 7 PM.",
+    "fee": "Rs.5 (Indians) Rs.25 (Foreigners)",
+    "price": 5
+  },
+
+  {
+    "id": 65,
+    "name": "Ajanta-Ellora Caves",
+    "stateUT": "Maharashtra",
+    "description": "One of the finest examples of ancient rock-cut caves is Ajanta and Ellora Caves located in Aurangabad. There are 29 Ajanta Caves and 34 Ellora Caves, all of which are designed beautifully with paintings and intricately carved sculptures and it is one of the best historical places in Maharashtra.The caves are surrounded by dense forests.",
+    "img": "/Imagess/ajanta ellora caves.jpeg",
+    "time": "9AM to 5PM ",
+    "fee": "Rs.30 (Indians) Rs.500 (Foreigners)",
+    "price": 30
+  },
+  {
+    "id": 66,
+    "name": "Aga Khan Palace",
+    "stateUT": "Maharashtra",
+    "description": "Built in 1892 by Sultan Muhammed Shah Aga Khan III, the Aga Khan Palace is one of the many historical places in Maharashtra and a landmark for many defining moments in Indian history. It was here that Mahatma Gandhi, his wife Kasturba, and Sarojini Naidu were held captive. Mahatma Gandhi’s ashes are buried in the grounds of this very palace.",
+    "img": "/Imagess/aga_khan_Palace.jpg",
+    "time": "9 PM - 5:30 PM",
+    "fee": "Rs.5 (Indians) Rs.100 (Foreigners)",
+    "price": 5
+  },
+  {
+    "id": 67,
+    "name": "Shaniwar Wada",
+    "stateUT": "Maharashtra",
+    "description": "Shaniwar Wada is an excellent example of the Maratha Imperial architecture used in India in the bygone era. It tells the historical tale of the Maratha Kingdom as it has seen every event that occurred in Peshwas Life over time.It was built by the Peshwas’ symbolizing the brave hearts of the Marathas, who strived hard to keep its glory alive.",
+    "img": "/Imagess/Shaniwar-Wada.jpg",
+    "time": "08:00 am to 05:30 pm",
+    "fee": "Rs.5 (Indians) Rs.125 (Foreigners)",
+    "price": 5
+  },
+  {
+    "id": 68,
+    "name": "Elephanta Caves",
+    "stateUT": "Maharashtra",
+    "description": "The Elephanta Caves are a major attraction in Mumbai because of its archaeological significance. This is where the caves are located, must have seen early settlements from 2nd century BC. The caves, however, are estimated to have been constructed sometime between 5th and 6th century AD. One of the biggest caves here measures about 39 metres from the front to the back. ",
+    "img": "/Imagess/elephanta_caves.jpg",
+    "time": "9 am to 5 pm",
+    "fee": "Rs.40 (Indians) Rs.250 (Foreigners)",
+    "price": 40
+  },
+  {
+    "id": 69,
+    "name": "Jaigad Fort",
+    "stateUT": "Maharashtra",
+    "description": "This 16th-century fort is one of the most notable tourist places in Ganpatipule, standing tall withstanding the tests of time. The fort was built on a cliff overlooking the Jaigad creek at the confluence of River Shastri and the Arabian Sea, to protect one of the major ports of the era. The remains of this majestic architectural splendour, extending over 13 acres at an elevation of 250 feet above sea level, will spellbind you. ",
+    "img": "/Imagess/Jaigad_fort.jpg",
+    "time": "9am to 4.30pm.",
+    "fee": "Rs.70 (Indians) Rs.150 (Foreigners)",
+    "price": 70
+  },
+  {
+    "id": 70,
+    "name": "Raigad Fort",
+    "stateUT": "Maharashtra",
+    "description": "At a height of 2690 feet, is this fort that symbolises historical places in Maharashtra and boasts of Maratha victory. The fort is surrounded by steep lush valleys on three sides, and the fourth one sees a series of steps leading up to it. It was primarily for this reason that it could never be conquered by the enemies.",
+    "img": "/Imagess/Raigad-Fort.jpg",
+    "time": "8 AM - 6 PM",
+    "fee": "Rs.10 (Indians) Rs.100 (Foreigners)",
+    "price": 10
+  },
+
+  {
+    "id": 71,
+    "name": "Bishnupur Temple",
+    "stateUT": "Manipur",
+    "description": "The 15th century Vishnu Temple, built of peculiarly small bricks – supposedly of Chinese influence – during the reign of King Kiyamba, is of historical importance. Interestingly, the district itself derives its name from the Vishnu Temple located at Lamangdong",
+    "img": "/Imagess/Bishnupur_manipur.jpg",
+    "time": "Sunrise to Sunset",
+    "fee": "Rs 20 (Indians), Rs 250 (foreigners)",
+    "price": 20
+  },
+
+  {
+    "id": 72,
+    "name": "Mizoram State Museum",
+    "stateUT": "Mizoram",
+    "description": "The State museum is within 200 meters from the main road traversing Aizawl City. One can reach either from Zarkawt Traffic point or Chandmary Church point uphill. On the left of the State Museum stands Missionary Tomb and on the right the Teachers' Inn. The main entry is on the upper road facing Govt. Higher Secondary School playground.",
+    "img": "/Imagess/Mizoram.jpg",
+    "time": "Sunrise to sunset",
+    "fee": "Rs 10 (children), Rs 20 (Adults)",
+    "price": 10
+  },
+
+  {
+    "id": 73,
+    "name": "Konark Museum",
+    "stateUT": "Odisha",
+    "description": "The Konark museum started in the year 1968 and maintained by the Archaeological Survey of India. The museum is located near the main temple in the north direction. The museum has four galleries that showcase 260 different fallen architectural pieces and sculptures that were found during the clearance work of Konark temple complex.",
+    "img": "/Imagess/Konark_Museumm.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": "Adult : Rs10",
+    "price": 10
+  },
+  {
+    "id": 74,
+    "name": "Konark Temple",
+    "stateUT": "Odisha",
+    "description": "The Sun Temple at Konark is the pinnacle of Odisha Temple Architecture and an UNESCO World Heritage Site. The temple is a culmination of seven hundred years of grind in search of perfection. Built in the 12th Century AD by King Narasimha Deva I and dedicated to the Sun God, the Sun Temple at Konark continues to leave us spellbound with its massive structure, symmetry, precision and intricate detailing.",
+    "img": "/Imagess/Konark_Temple.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.35, Foreigners Rs. 550/-.",
+    "price": 35
+  },
+  {
+    "id": 75,
+    "name": "RajaRani Temple",
+    "stateUT": "Odisha",
+    "description": "Rajarani temple is a perfect symphony of skillful planning, symmetry of form and exquisite craftsmanship. No wonder it is hailed as a masterpiece of Odisha Temple Architecture. Historians speculate that it was called Indresvara Temple and dedicated to Lord Shiva.The temple was built during the later stages of the Somavamsi rule in the 11th century AD. ",
+    "img": "https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.20, Foreigners Rs. 250/-.",
+    "price": 20
+  },
+  {
+    "id": 76,
+    "name": "Udaygiri & Khandagiri Caves",
+    "stateUT": "Odisha",
+    "description": "The caves located 7KM from Bhubaneswar takes us back in time and is probably the only recorded history of era that is still shrouded in mystery. Built somewhere around the 2nd century BC by King Kharavela of the Meghavahana dynasty, widely regarded as the most powerful king in the annals of history of Odisha. ",
+    "img": "/Imagess/Khandagari_and_Udayagiri.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.20, Foreigners Rs. 250/-.",
+    "price": 20
+  },
+
+  {
+    "id": 77,
+    "name": "Archaelogical site Museum Ropar",
+    "stateUT": "Punjab",
+    "description": "he Archaeological Museum is situated in Rupnagar town situated on the bank of sutlej river. Opened to publi in the year 1998, the museum houses the archaeological remains of excavated site near Ropar, the first Harappan site excavated in Independent India.",
+    "img": "/Imagess/ropar.jpg",
+    "time": "6:30 AM - 7:30 PM",
+    "fee": " Indians : Rs.5 Foreigners Rs. 100/-.",
+    "price": 5
+  },
+  {
+    "id": 78,
+    "name": "Maharaja Ranjit Singh Museum",
+    "stateUT": "Punjab",
+    "description": "The Maharaja Ranjit Singh Museum is a museum located in Company Bagh, Amritsar. It served as the summer palace of the first king of the Sikh Empire, Maharaja Ranjit Singh, after whom the museum is named.",
+    "img": "/Imagess/MAHARAJA-RANJIT-SINGH-MUSEUM.jpg",
+    "time": "10 am to 5 pm (Tuesday to Sunday)",
+    "fee": "INR 40 (adults)INR 20 (children)",
+    "price": 40
+  },
+
+  {
+    "id": 79,
+    "name": "Deeg Palaces, Deeg",
+    "stateUT": "Rajasthan",
+    "description": "Deeg located in Bharatpur district, Rajasthan is historically associated as the eighteenth century strong hold of the Jat rulers. Badan Singh ( 1722 – 56 AD) after assuming the throne consolidated the headship of the tribe and thereby became the virtual founder of the Jat house at Bharatpur. The credit of commencing the urbanization of Deeg also goes to him.",
+    "img": "/Imagess/deeg-palace.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 80,
+    "name": "Kumbhalgarh Fort",
+    "stateUT": "Rajasthan",
+    "description": "Kumbhalgarh  is situated in the Kelwada tehsil of district Rajsamand. It is at a distance of about 80 km northwest of Udaipur amidst the Aravalli hills.it is considered as the second most important fort of Rajasthan. Its construction is attributed to Rana Kumbha between AD 1443 and 1458 under the supervision of famous architect Mandan.",
+    "img": "/Imagess/kumbhalgarh_fort.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.40 Foreigners Rs. 600/-.",
+    "price": 25
+  },
+
+  {
+    "id": 81,
+    "name": "Mahabalipuram",
+    "stateUT": "Tamil nadu",
+    "description": "Mamallapuram, the city of Mamalla, is after the title of great Pallava ruler Narasimhavarman-I (AD 630-68). It was a sea-port during the time of Periplus (1st century AD) and Ptolemy (AD 140) and many Indian colonists sailed to South-East Asia through this port town. While there is some evidence of architectural activity going back to the period of Mahendravarman-I (AD 600-30).",
+    "img": "/Imagess/mahabalipuram.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.40 Foreigners Rs. 600/-.",
+    "price": 40
+  },
+  {
+    "id": 82,
+    "name": "Chola Temple",
+    "stateUT": "Tamil nadu",
+    "description": "The celebrated Saiva temple at Thanjavur, appropriately called Brihadisvara and Daksinameru, is the grandest creation of the Chola emperor Rajaraja (AD 985-1012). It was inaugurated by the king himself in his 19th regnal year (AD 1009-10) and named it after himself as Rajesvara Peruvudaiyar. ",
+    "img": "/Imagess/Chola_Temple.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.40 Foreigners Rs. 600/-.",
+    "price": 40
+  },
+  {
+    "id": 83,
+    "name": "Rajagiri Fort and Krishnagiri Fort",
+    "stateUT": "Tamil nadu",
+    "description": "The Muslim sultans of Bijapur, the Moguls, the Marathas are always recognised the strategic importance of the fort and everybody always fought hard to retain the fort. So much so, the vision of Sivaji, the great Maratha warrior became true, as Gingee was the seat of Maratha power for few months when Rajaram fled to Maharashtra in the wars with the Moguls.s",
+    "img": "/Imagess/rajgiri.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.40 Foreigners Rs. 600/-.",
+    "price": 40
+  },
+  {
+    "id": 84,
+    "name": "Dindigul Fort",
+    "stateUT": "Tamil nadu",
+    "description": "Dindigul located about 400 km from Chennai, is a strategic place located overlooking the valley through which the forces from Karnataka country gained access into the Madurai in late medieval period. The Nayakas of Madurai possibly erected the first fortification on the rock, a prominent elevated place overlooking the valley, in order to defend their country from the invading Mysore army. ",
+    "img": "/Imagess/dindigul.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 85,
+    "name": "Muvar Koil, Kodumbalur",
+    "stateUT": "Tamil nadu",
+    "description": "This temple-complex originally consisted of three identical shrines built in a row all facing west. In front of the trio, was a maha-mandapa, a vrsha-mandapa and a gopura and surrounding the main shrines are sixteen shrines for the subsidiary deities (parivara devatas).",
+    "img": "/Imagess/muvar-kovil.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 86,
+    "name": "Rock-cut Jaina temple",
+    "stateUT": "Tamil nadu",
+    "description": "Known as Arivarkovil or Temple of the Arhats, this rock-cut temple was earlier considered to be an excavation of Pallava king Mahendravarman I (AD 580-630) before his conversion to Hinduism from Jainism However, considering its geographical location in the Pandyan country and the inscriptional references to its renovation by Pandyan king",
+    "img": "/Imagess/Rock-cut-temple.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 87,
+    "name": "Tirumayam Fort",
+    "stateUT": "Tamil nadu",
+    "description": "Sethupati Vijaya Raghunatha Tevan (1673-1708) of Ramanathapuram, popularly known as Kilavan Sethupati, built this fortification on and around the small hillock at Tirumayam in Pudukkottai district. The fort later came under the control of Tondaiman rulers of Pudukkottai.",
+    "img": "/Imagess/thirumayam-fort.jpg",
+    "time": "Sunrise to sunset",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+  {
+    "id": 88,
+    "name": "ST. GEORGE'S FORT",
+    "stateUT": "Tamil nadu",
+    "description": "A gem of Chennai established in 1644, St.George's Fort is the first English Fortress in India which now functions as the site of Tamil Nadu Legislative Assembly and rest of official buildings. ",
+    "img": "/Imagess/st-george-fort.jpg",
+    "time": "Sunrise to sunset",
+    "fee": " Indians : Rs.25 Foreigners Rs. 300/-.",
+    "price": 25
+  },
+
+  {
+    "id": 89,
+    "name": "Golconda Fort",
+    "stateUT": "Telangana",
+    "description": "Located about 11 kilometers from Hyderabad, the Golconda Fort is one of the most magnificent forts of India. This ruined fortress has a glorious history which dates back to the 12th century.Originally a mud fort, the Shahi kings expanded the fort and renovated into impressive granite structure measuring about 5 kilometers in circumference. Until 1590, it remained the capital of the Shahi dynasty.",
+    "img": "/Imagess/Golconda-Fort.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs.20 (Indians) Rs.250 (Foreigners)",
+    "price": 20
+  },
+  {
+    "id": 90,
+    "name": "Warangal Fort",
+    "stateUT": "Telangana",
+    "description": "The Warangal Fort is located at the top of a hill and is one of the most important sites in India. It is renowned for numerous temples and artifacts that are present here.. It displays the gorgeous Kakatiya architecture and they are mostly constructed by the Kakatiyan dynasty and display rare architectural skill and talent.",
+    "img": "/Imagess/warangal-fort.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs.20 (Indians) Rs.250 (Foreigners)",
+    "price": 20
+  },
+
+  {
+    "id": 92,
+    "name": "Ramoji Film City",
+    "stateUT": "Telangana",
+    "description": "Ramoji Film City is the world's largest film studio with a space about 2,000 acres. Ramoji Film City of Hyderabad is one of the chief tourist attractions of India and Asia. The film city was inaugurated in the year 1996. The film city is not only the place for the film sets, set construction, shooting stages and movie studio but is an ideal tourist destination too. ",
+    "img": "/Imagess/Ramoji_Film_City.jpg",
+    "time": "Sunrise to sunset. ",
+    "fee": "Rs.10 (Indians) Rs.250 (Foreigners)",
+    "price": 10
+  },
+
+  {
+    "id": 93,
+    "name": "Man Singh Observatory",
+    "stateUT": "Uttar Pradesh",
+    "description": "The palace Man Mahal, popularly known as Man Mandir is located adjacent to the famous Dashashvamedh ghat hardly five kilometres from Varanasi railway station.Man Mahal situated on the western bank of river Ganga just adjacent to the famous Dashashvamedh ghat at Varanasi is a beautiful example of Mughal-Rajput architecture.",
+    "img": "/Imagess/Mansingh-Obesrvatory-Varanasi.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  },
+  {
+    "id": 94,
+    "name": "Taj Mahal",
+    "stateUT": "Uttar Pradesh",
+    "description": "The Taj Mahal is a world heritage site and best example of Mughal architecture in India. Taj Mahal attracts a large number of tourists and most visited historical monuments in Uttar Pradesh, located on the south bank of the Yamuna river.",
+    "img": "/Imagess/taj_mahal.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs.35 (Indians) Rs.550 (Foreigners)",
+    "price": 35
+  },
+  {
+    "id": 95,
+    "name": "Agra Fort",
+    "stateUT": "Uttar Pradesh",
+    "description": "Agra Fort is the masterpiece of the Mughal Dynasty and a world heritage site, located about 2.5 km northwest the Taj Mahal. The historical fort has Jahangiri Mahal,Akbari Mahal and four grandest gates built of red sandstone.",
+    "img": "/Imagess/agra-fort.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": "Rs.35 (Indians) Rs.550 (Foreigners)",
+    "price": 35
+  },
+  {
+    "id": 96,
+    "name": "Fatehpur Sikri",
+    "stateUT": "Uttar Pradesh",
+    "description": "Fatehpur Sikri is an abandoned city and best preserved examples of Mughal architecture in India. The most important buildings in this city are Buland Darwaza,Jama Masjid,Tomb of Salim Chishti and Panch Mahal.",
+    "img": "/Imagess/fatehpur_sikri.jpg",
+    "time": "9:30am to 5:30pm- winter and 9am to 7pm- summer (Monday closed)",
+    "fee": "Rs.35 (Indians) Rs.550 (Foreigners)",
+    "price": 35
+  },
+  {
+    "id": 97,
+    "name": "Jaunpur Fort",
+    "stateUT": "Uttar Pradesh",
+    "description": "Jaunpur is a small town located on the bank of river Gomti, about sixty kilometre north-west of Varanasi in eastern Uttar Pradesh. The place is well connected by rail and road with different parts of the country.",
+    "img": "/Imagess/jaunpur_fort.jpg",
+    "time": "Sunrise to sunset. (Only monday closed)",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  },
+  {
+    "id": 98,
+    "name": "Sarnath Stupa",
+    "stateUT": "Uttar Pradesh",
+    "description": "Sarnath city is located near Varanasi and an important pilgrimage site for Buddhists. Most famous ancient buildings and structures at Sarnath are Dhamek Stupa,Ashoka Pillar and Mulagandhakuti Vihara.",
+    "img": "/Imagess/sarnath-stupa.jpg",
+    "time": "Sunrise to sunset.",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  },
+  {
+    "id": 99,
+    "name": "Rani Jhansi Mahal",
+    "stateUT": "Uttar Pradesh",
+    "description": "Built by Raghu Nath-II of Nawalkar family (1769-96), this palace later formed as one of the residences for Rani Laxmi Bai. Architecturally, it a flat- roofed double-storeyed building having a quadrangular courtyard with a small well and one fountain each on either side. The palace consists of six halls and parallel corridors with multi-foiled arches and a number of small rooms",
+    "img": "/Imagess/rani-mahal-jhansi.jpg",
+    "time": "Sunrise to sunset",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  },
+  {
+    "id": 100,
+    "name": "Akbar’s Tomb",
+    "stateUT": "Uttar Pradesh",
+    "description": "Tomb of Akbar at Sikandara is an important Mughal architectural masterpiece. The tomb or mausoleum of the Mughal emperor Akbar is situated on the out skirts of the Agra City.",
+    "img": "/Imagess/akbar_s tomb.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs.20 (Indians) Rs.250 (Foreigners)",
+    "price": 20
+  },
+
+  {
+    "id": 101,
+    "name": "Cooch Behar Palace ",
+    "stateUT": "West Bengal",
+    "description": "Cooch Behar Palace was built during the reign of Maharaja Nripendra Narayan. It is designed in the model of Buckingham Palace, London. Cooch Behar Palace built in the Classical Western Style is a major tourist attraction in West Bengal.",
+    "img": "/Imagess/cooch_behar_palace.jpg",
+    "time": "Open to visitors 24 hours a day.",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  },
+  {
+    "id": 102,
+    "name": "Hazarduari Palace, Murshidabad",
+    "stateUT": "West Bengal",
+    "description": "The Hazarduari Palace is located in the Kila Nizamat site ( the place of the old fort). It was built in 19th C under the supervision of Duncan Macleod. The name Hazarduari means a palace with thousand doors. The palace is now under Archeological survey of India as a preserved monument of West Bengal.",
+    "img": "/Imagess/hazarduari palace.jpg",
+    "time": "Sunrise to sunset. (Only monday closed)",
+    "fee": "Rs 25 (Indians), Rs 300 (foreigners)",
+    "price": 25
+  }
+]

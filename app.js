@@ -11,6 +11,7 @@ const cors = require("cors");
 const app = express();
 const authRoutes = require("./routes/auth");
 const ticket = require("./models/ticket");
+const placesRoutes = require("./routes/places");
 const { mongoDbConnection } = require("./MongooseConnection");
 const user = require("./models/user");
 
@@ -36,6 +37,7 @@ app.use(
 
 //my routes
 app.use("/api", authRoutes);
+app.use("/places", placesRoutes);
 
 app.get("/user-ticket/:id", (req, res) => {
   const { id } = req.params;
@@ -86,15 +88,21 @@ app.get("/generate-qr", (req, res) => {
     });
     qrcode.toDataURL().then((data) => {
       // console.log(data);
-      //to add qr code to user details
-      // user.findByIdAndUpdate(
-      //   "62ede2c3db94e51d3c623ebf",
-      //   { qr: data },
-      //   (err, result) => {
-      //     if (err) console.log(err);
-      //     else console.log(result);
-      //   }
-      // );
+      // to add qr code to user details
+      user.findByIdAndUpdate(
+        "62ede2c3db94e51d3c623ebf",
+        {
+          $push: {
+            purchases: {
+              qr: data,
+            },
+          },
+        },
+        (err, result) => {
+          if (err) console.log(err);
+          else console.log(result);
+        }
+      );
     });
   } catch (err) {
     res.status(400).send(err.message);
