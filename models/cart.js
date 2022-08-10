@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const cartSchema = mongoose.Schema({
+const cartSchema = new mongoose.Schema({
   monumentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Monument",
@@ -18,6 +18,9 @@ const cartSchema = mongoose.Schema({
       aadhar: String,
     },
   ],
+  price: {
+    type: Number,
+  },
   creatAt: {
     type: Date,
     default: () => Date.now(),
