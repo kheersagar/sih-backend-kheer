@@ -10,6 +10,7 @@ const cors = require("cors");
 
 const app = express();
 const authRoutes = require("./routes/auth");
+const paymentRoutes = require("./routes/payement");
 const ticket = require("./models/ticket");
 const placesRoutes = require("./routes/places");
 const { mongoDbConnection } = require("./MongooseConnection");
@@ -38,6 +39,7 @@ app.use(
 //my routes
 app.use("/api", authRoutes);
 app.use("/places", placesRoutes);
+app.use("/payment", paymentRoutes);
 
 app.get("/user-ticket/:id", (req, res) => {
   const { id } = req.params;
