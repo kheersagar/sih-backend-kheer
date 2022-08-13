@@ -8,9 +8,7 @@ const generateQrCode = (id, imagePath) => {
     ]);
 
     pythonProcess.stderr.on("data", (data) => {
-      console.log("err");
-      console.log(data.toString());
-      reject(data.toString());
+      reject(data);
     });
     pythonProcess.stdout.on("data", (data) => {
       console.log("result");
