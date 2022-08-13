@@ -1,0 +1,5 @@
+segno
+sys
+io
+urlopen
+base64
