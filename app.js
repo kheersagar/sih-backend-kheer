@@ -15,6 +15,7 @@ const ticket = require("./models/ticket");
 const placesRoutes = require("./routes/places");
 const { mongoDbConnection } = require("./MongooseConnection");
 const user = require("./models/user");
+const { generateQrCode } = require("./utils/generateQrCode");
 
 // generate pdf
 app.use(expressLayouts);
@@ -110,6 +111,15 @@ app.get("/generate-qr", (req, res) => {
     res.status(400).send(err.message);
   }
   res.send("create successfully");
+});
+app.get("/q", async (req, res) => {
+  let result;
+  try {
+    result = await generateQrCode();
+    res.send(result);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
 });
 //port
 const port = process.env.PORT || 8000;

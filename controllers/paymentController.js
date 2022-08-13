@@ -1,5 +1,7 @@
 const Razorpay = require("razorpay");
 const cart = require("../models/cart");
+const ticket = require("../models/ticket");
+const { generateQrCode } = require("../utils/generateQrCode");
 
 const getRazorpayKey = (req, res) => {
   res.send({ key: process.env.RAZORPAY_KEY });
@@ -42,17 +44,32 @@ const payOrder = async (req, res) => {
       cartItems,
     } = req.body;
     //
-    let totalPrice = 0;
-    cartItems.map((item) => {
-      totalPrice += Number(item.price);
-    });
-    if (totalPrice.toString() + "00" !== amount.toString()) {
-      res.status(500).send("Total Amount Does Not Match");
+    try {
+      let totalPrice = 0;
+      cartItems.map((item) => {
+        totalPrice += Number(item.price);
+      });
+      if (totalPrice.toString() + "00" !== amount.toString()) {
+        res.status(500).send("Total Amount Does Not Match");
+      }
+      //
+      // console.log(req.body);
+      cartItems.map(async (item) => {
+        console.log(item, "before");
+        item.monumentId = item.monumentId._id;
+        console.log(item, "after");
+        delete item._id;
+        const newTicket = await ticket.create(item);
+        const qr = await generateQrCode(newTicket._id);
+        const temp = await ticket.updateMany(
+          { _id: newTicket._id },
+          { qr: qr }
+        );
+      });
+      await cart.deleteMany({ userId: cartItems[0].userId });
+    } catch (err) {
+      console.log(err.message);
     }
-    //
-    console.log(req.body);
-    const result = await cart.deleteMany({ userId: cartItems[0].userId });
-    console.log(result);
     res.send({
       msg: "Payment was successfull",
     });

@@ -1,25 +1,33 @@
-var mongoose = require ('mongoose');
-
+var mongoose = require("mongoose");
 
 var ticketSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required : true,
-        maxlength: 32,
-        trim: true
+  monumentId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Monument",
+    required: true,
+  },
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
+  },
+  ticketedUsers: [
+    {
+      name: String,
+      age: String,
+      aadhar: String,
     },
-    age:{
-        type: String,
-        maxlength: 32,
-        trim: true
-
-    },
-    adhar:{
-        type: String,
-        trim: true,
-        required: true,
-        unique: true
-    }
-})
+  ],
+  qr: {
+    type: String,
+  },
+  price: {
+    type: Number,
+  },
+  creatAt: {
+    type: Date,
+    default: () => Date.now(),
+  },
+});
 
 module.exports = mongoose.model("ticket", ticketSchema);
