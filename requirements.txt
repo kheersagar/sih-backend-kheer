@@ -1,2 +1,2 @@
 segno==1.5.2
-urllib==1.26.9
+urllib3==1.26.9
