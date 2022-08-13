@@ -55,24 +55,30 @@ const payOrder = async (req, res) => {
       //
       // console.log(req.body);
       cartItems.map(async (item) => {
-        console.log(item, "before");
+        // console.log(item, "before");
+        let imagePath = item.monumentId.img;
         item.monumentId = item.monumentId._id;
-        console.log(item, "after");
+        // console.log(item, "after");
         delete item._id;
         const newTicket = await ticket.create(item);
-        const qr = await generateQrCode(newTicket._id);
+        const qr = await generateQrCode(
+          `http://localhost:8000/getTicketDetails/${newTicket._id}`,
+          "public" + imagePath
+        );
         const temp = await ticket.updateMany(
           { _id: newTicket._id },
           { qr: qr }
         );
+        await cart.findOneAndDelete({ userId: item.userId });
       });
-      await cart.deleteMany({ userId: cartItems[0].userId });
+      //
+      res.send({
+        msg: "Payment was successfull",
+      });
     } catch (err) {
       console.log(err.message);
+      res.status(500).send(err.message);
     }
-    res.send({
-      msg: "Payment was successfull",
-    });
   } catch (error) {
     console.log(error);
     res.status(500).send(error);

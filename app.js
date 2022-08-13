@@ -13,6 +13,7 @@ const authRoutes = require("./routes/auth");
 const paymentRoutes = require("./routes/payement");
 const ticket = require("./models/ticket");
 const placesRoutes = require("./routes/places");
+const userRoutes = require("./routes/user");
 const { mongoDbConnection } = require("./MongooseConnection");
 const user = require("./models/user");
 const { generateQrCode } = require("./utils/generateQrCode");
@@ -41,23 +42,8 @@ app.use(
 app.use("/api", authRoutes);
 app.use("/places", placesRoutes);
 app.use("/payment", paymentRoutes);
+app.use("/user", userRoutes);
 
-app.get("/user-ticket/:id", (req, res) => {
-  const { id } = req.params;
-  try {
-    ticket.findOne({ _id: id }, (err, results) => {
-      if (err) {
-        res.send(err);
-        console.log(err);
-      } else {
-        console.log(results);
-        res.send(results);
-      }
-    });
-  } catch (err) {
-    res.status(400).send("some error occured");
-  }
-});
 app.get("/", (req, res) => {
   res.send("hello");
 });
