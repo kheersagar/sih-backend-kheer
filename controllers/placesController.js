@@ -50,22 +50,15 @@ const deleteItem = async (req, res) => {
 
 const addUserToCart = async (req, res) => {
   const data = req.body;
-  const userData = {
-    name: data.name,
-    age: data.age,
-    aadhar: data.adhar,
-  };
+  console.log(req.body);
   try {
     const result = await cart.updateMany(
       { userId: data.userId },
-      { $push: { ticketedUsers: userData } }
+      { $push: { ticketedUsers: data } }
     );
-    if (result.nModified === 0) {
-      res.status(400).send("some error occured");
-    }
     res.send("Updated Successfully");
   } catch (err) {
-    res.status(400).send(err.message);
+    res.status(500).send(err.message);
   }
 };
 module.exports = { findPlaces, addToCart, getCart, deleteItem, addUserToCart };

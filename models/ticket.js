@@ -1,5 +1,13 @@
 var mongoose = require("mongoose");
-
+const ticketedUsersSchema = mongoose.Schema({
+  userType: String,
+  gender: String,
+  name: String,
+  age: String,
+  nationality: String,
+  idType: String,
+  idNumber: String,
+});
 var ticketSchema = new mongoose.Schema({
   monumentId: {
     type: mongoose.Schema.Types.ObjectId,
@@ -11,13 +19,7 @@ var ticketSchema = new mongoose.Schema({
     ref: "User",
     required: true,
   },
-  ticketedUsers: [
-    {
-      name: String,
-      age: String,
-      aadhar: String,
-    },
-  ],
+  ticketedUsers: [ticketedUsersSchema],
   qr: {
     type: String,
   },
