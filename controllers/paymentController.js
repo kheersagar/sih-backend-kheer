@@ -65,7 +65,8 @@ const payOrder = async (req, res) => {
           const newTicket = await ticket.create(item);
           const qr = await generateQrCode(
             `http://localhost:8000/getTicketDetails/${newTicket._id}`,
-            path.join("public", imagePath)
+            // path.join("public", imagePath)
+            path.join("public", "TJ2.jpg")
           );
           const temp = await ticket.updateMany(
             { _id: newTicket._id },
