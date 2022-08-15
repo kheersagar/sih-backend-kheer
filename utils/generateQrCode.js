@@ -1,4 +1,5 @@
 const generateQrCode = (id, imagePath) => {
+  console.log(imagePath);
   return new Promise((resolve, reject) => {
     const { spawn } = require("child_process");
     const pythonProcess = spawn("python", [
@@ -8,6 +9,7 @@ const generateQrCode = (id, imagePath) => {
     ]);
 
     pythonProcess.stderr.on("data", (data) => {
+      console.log(data.toString());
       reject(data);
     });
     pythonProcess.stdout.on("data", (data) => {

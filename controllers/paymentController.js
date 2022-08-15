@@ -1,6 +1,7 @@
 const Razorpay = require("razorpay");
 const cart = require("../models/cart");
 const ticket = require("../models/ticket");
+const path = require("path");
 const { generateQrCode } = require("../utils/generateQrCode");
 
 const getRazorpayKey = (req, res) => {
@@ -64,7 +65,7 @@ const payOrder = async (req, res) => {
           const newTicket = await ticket.create(item);
           const qr = await generateQrCode(
             `http://localhost:8000/getTicketDetails/${newTicket._id}`,
-            "public" + imagePath
+            path.join(__dirname, "..", "public", imagePath)
           );
           const temp = await ticket.updateMany(
             { _id: newTicket._id },
