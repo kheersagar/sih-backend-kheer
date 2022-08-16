@@ -3,8 +3,18 @@ var jwt = require("jsonwebtoken");
 var expressJwt = require("express-jwt");
 const { EmailTransporter } = require("../EmailTransporter");
 const { OtpController } = require("./OtpController");
+const {check, validationResult} = require("express-validator");
 
 exports.signup = (req, res) => {
+
+const errors = validationResult(req)
+if(!errors.isEmpty()){
+  return res.status(422).json({
+    error: errors.array()[0].msg
+  })
+}
+
+
   const user = new User(req.body);
   user.save((err, user) => {
     if (err) {
@@ -52,3 +62,20 @@ exports.signout = (req, res) => {
     message: "User signout successfully",
   });
 };
+
+// protected routes
+exports.issignin = expressJwt({
+  secret: "shhhh",
+  userProperty: "auth"
+ });
+
+ //custom middlewares 
+ exports.isAuthenticated = (req,res,next)=>{
+  let checker = req.auth ===req.auth._id;
+  if(!checker){
+    return res.status(403).json({
+      error: "ACCESS DENIED"
+    })
+  }
+  next();
+ }
