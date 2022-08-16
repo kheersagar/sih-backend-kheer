@@ -26,6 +26,12 @@ var ticketSchema = new mongoose.Schema({
   price: {
     type: Number,
   },
+  cprice: {
+    type: Number,
+  },
+  fprice: {
+    type: Number,
+  },
   creatAt: {
     type: Date,
     default: () => Date.now(),

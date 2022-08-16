@@ -13,11 +13,13 @@ const findPlaces = async (req, res) => {
 const addToCart = async (req, res) => {
   const { monumentId, userId } = req.body;
   try {
-    const { price } = await Monument.findById(monumentId);
+    const { price, cprice, fprice } = await Monument.findById(monumentId);
     const result = await cart.create({
       monumentId,
       userId,
       price,
+      cprice,
+      fprice,
     });
 
     res.send("Successfully Added To Cart");

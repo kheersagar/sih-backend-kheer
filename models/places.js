@@ -8,6 +8,8 @@ const monumentSchema = mongoose.Schema({
   time: String,
   fee: String,
   price: Number,
+  cprice: Number,
+  fprice: Number,
 });
 
 module.exports = mongoose.model("Monument", monumentSchema);
