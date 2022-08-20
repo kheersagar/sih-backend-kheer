@@ -1,5 +1,5 @@
 const ticket = require("../models/ticket");
-
+const User = require("../models/user");
 const getUserTicket = async (req, res) => {
   const { id } = req.params;
   try {
@@ -11,3 +11,14 @@ const getUserTicket = async (req, res) => {
 };
 
 module.exports = { getUserTicket };
+
+exports.getAllUsers = (req , res)=>{
+  User.find().exec((err, users)=>{
+    if(err || !users){
+      return res.status(400).json({
+        error: "no user found"
+      })
+    }
+    res.json(users);
+  })
+}

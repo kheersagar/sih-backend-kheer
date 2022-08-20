@@ -18,6 +18,7 @@ const { mongoDbConnection } = require("./MongooseConnection");
 const user = require("./models/user");
 const { generateQrCode } = require("./utils/generateQrCode");
 const { TicketEmail } = require("./utils/TicketEmail");
+const userCart = require("./routes/cart");
 
 // generate pdf
 app.use(expressLayouts);
@@ -44,6 +45,7 @@ app.use("/api", authRoutes);
 app.use("/places", placesRoutes);
 app.use("/payment", paymentRoutes);
 app.use("/user", userRoutes);
+app.use("/api", userCart);
 
 app.get("/", (req, res) => {
   res.send("hello");
