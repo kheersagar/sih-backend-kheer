@@ -63,4 +63,23 @@ const addUserToCart = async (req, res) => {
     res.status(500).send(err.message);
   }
 };
-module.exports = { findPlaces, addToCart, getCart, deleteItem, addUserToCart };
+
+const nearPlaces = async (req, res) => {
+  const { id } = req.body;
+  try {
+    const { stateUT } = await Monument.findOne({ _id: id });
+    const result = await Monument.find({ stateUT, _id: { $ne: id } });
+    res.send(result);
+  } catch (err) {
+    res.status(500).send(err.message);
+    console.log(err.message);
+  }
+};
+module.exports = {
+  findPlaces,
+  addToCart,
+  getCart,
+  deleteItem,
+  addUserToCart,
+  nearPlaces,
+};
