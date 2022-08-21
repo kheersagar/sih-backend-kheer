@@ -50,7 +50,7 @@ const payOrder = async (req, res) => {
           delete item._id;
           const newTicket = await ticket.create(item);
           const qr = await generateQrCode(
-            `http://localhost:8000/getTicketDetails/${newTicket._id}`,
+            `https://qr-monument.vercel.app/getTicketDetails/${newTicket._id}`,
             path.join("public", imagePath)
           );
           const temp = await ticket.updateMany(

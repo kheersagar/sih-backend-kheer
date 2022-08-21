@@ -14,4 +14,5 @@ router.get("/getCart/:userId", getCart);
 router.post("/deleteCartItem", deleteItem);
 router.post("/addUserToCart", addUserToCart);
 router.post("/nearPlaces", nearPlaces);
+
 module.exports = router;
