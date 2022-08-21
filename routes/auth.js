@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-const {signout, signup, signin, issignin } = require("../controllers/auth");
+const {signout, signup, signin, issignin,googlelogin } = require("../controllers/auth");
 const {getAllTickets} = require("../controllers/ticket");
 const {check } = require('express-validator');
 const {ticket} =require("../controllers/ticket")
@@ -17,6 +17,8 @@ router.post("/signup", [
     check("password", "password should be atleast 8 charactor").isLength({min:8})],
 
 signup);
+
+router.post("/googlelogin", googlelogin)
 
 router.post("/signin", signin);
 router.post("/ticket", ticket);

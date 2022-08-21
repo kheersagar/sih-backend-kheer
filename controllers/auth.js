@@ -4,6 +4,10 @@ var expressJwt = require("express-jwt");
 const { EmailTransporter } = require("../EmailTransporter");
 const { OtpController } = require("./OtpController");
 const {check, validationResult} = require("express-validator");
+const {Authclient} =require('google-auth-library');
+
+
+
 
 exports.signup = (req, res) => {
 
@@ -78,4 +82,19 @@ exports.issignin = expressJwt({
     })
   }
   next();
+ }
+
+
+ exports.googlelogin =(req , res)=>{
+  const client = new Authclient("770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com")
+
+  const {tokenId} = req.body;
+  client.verifyIdToken({ idToken:  tokenId, audience:"770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com" })
+  .then(response=>{
+    const{email_verified, name, email}= response.payload;
+    console.log(response.payload)
+
+
+  })
+  console.log()
  }
