@@ -41,6 +41,15 @@ var userSchema = new mongoose.Schema({
       },
     },
   ],
+  mobile: {
+    type: String,
+  },
+  gender: {
+    type: String,
+  },
+  idNumber: {
+    type: String,
+  },
 });
 
 userSchema
