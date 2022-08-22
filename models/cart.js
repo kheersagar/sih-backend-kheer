@@ -22,6 +22,7 @@ const cartSchema = new mongoose.Schema({
     required: true,
   },
   ticketedUsers: [ticketedUsersSchema],
+
   price: {
     type: Number,
   },

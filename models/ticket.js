@@ -25,6 +25,10 @@ var ticketSchema = new mongoose.Schema({
     required: true,
   },
   ticketedUsers: [ticketedUsersSchema],
+  date: {
+    type: Date,
+    required: true,
+  },
   qr: {
     type: String,
   },
