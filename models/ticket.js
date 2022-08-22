@@ -1,4 +1,5 @@
 var mongoose = require("mongoose");
+const shortid = require("shortid");
 const ticketedUsersSchema = mongoose.Schema({
   userType: String,
   gender: String,
@@ -9,6 +10,10 @@ const ticketedUsersSchema = mongoose.Schema({
   idNumber: String,
 });
 var ticketSchema = new mongoose.Schema({
+  ticketId: {
+    type: String,
+    default: shortid.generate,
+  },
   monumentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Monument",

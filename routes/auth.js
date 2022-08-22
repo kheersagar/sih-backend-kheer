@@ -1,7 +1,11 @@
 var express = require("express");
 var router = express.Router();
 const { signout, signup, signin, issignin } = require("../controllers/auth");
-const { getAllTickets, getTicket } = require("../controllers/ticket");
+const {
+  getAllTickets,
+  getTicket,
+  getTicketById,
+} = require("../controllers/ticket");
 const { check } = require("express-validator");
 const { ticket } = require("../controllers/ticket");
 const { stripe, stripes } = require("../controllers/stripe");
@@ -35,5 +39,6 @@ router.get("/stripe", stripe);
 router.post("/payment", stripes);
 router.get("/homeview", homeview);
 router.get("/getTicket/:id", getTicket);
+router.get("/getTicketById/:id", getTicketById);
 
 module.exports = router;

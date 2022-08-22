@@ -41,3 +41,15 @@ exports.getTicket = async (req, res) => {
     res.status(500).send(err.message);
   }
 };
+
+exports.getTicketById = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const result = await Ticket.findOne({ ticketId: id }).populate(
+      "monumentId"
+    );
+    res.send(result);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+};
