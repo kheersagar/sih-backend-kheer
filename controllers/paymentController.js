@@ -3,6 +3,7 @@ const cart = require("../models/cart");
 const ticket = require("../models/ticket");
 const path = require("path");
 const { generateQrCode } = require("../utils/generateQrCode");
+const { emailController } = require("./emailController");
 
 const getRazorpayKey = (req, res) => {
   res.send({ key: process.env.RAZORPAY_KEY });
@@ -58,6 +59,10 @@ const payOrder = async (req, res) => {
             { qr: qr.toString() }
           );
           await cart.findOneAndDelete({ userId: item.userId });
+          const bookedTicket = await ticket
+            .findById(newTicket._id)
+            .populate("monumentId");
+          emailController(bookedTicket);
         })
       );
       //

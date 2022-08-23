@@ -19,6 +19,7 @@ const user = require("./models/user");
 const { generateQrCode } = require("./utils/generateQrCode");
 const { TicketEmail } = require("./utils/TicketEmail");
 const userCart = require("./routes/cart");
+const { emailController } = require("./controllers/emailController");
 
 // generate pdf
 app.use(expressLayouts);
@@ -112,7 +113,7 @@ app.get("/q", async (req, res) => {
 });
 
 app.get("/email", (req, res) => {
-  TicketEmail();
+  emailController();
   res.send("hello");
 });
 
