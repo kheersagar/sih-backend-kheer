@@ -1,11 +1,11 @@
 const transporter = require("../email");
 const path = require("path");
 
-const TicketEmail = (user, filePath) => {
+const TicketEmail = (email, filePath) => {
   console.log(path.join(__dirname, "..", "/public/download.png"));
   var mailOptions = {
     from: "rahhar848@gmail.com",
-    to: "santparja@gmail.com",
+    to: email,
     subject: "Your E-Ticket",
     text: "Have a Good Day!!",
     html: `<div>Please Download Your Ticket</div>`,

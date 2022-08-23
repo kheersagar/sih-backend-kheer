@@ -11,12 +11,17 @@ const getRazorpayKey = (req, res) => {
 
 const createOrder = async (req, res) => {
   const { amount, cartItems } = req.body;
+  let isDate = true;
   cartItems.some((item) => {
     if (!item.date) {
-      res.status(500).send("Date Not Found");
+      isDate = false;
       return;
     }
   });
+  if (!isDate) {
+    res.status(500).send("Date Not Found");
+    return;
+  }
   try {
     const instance = new Razorpay({
       key_id: process.env.RAZORPAY_KEY,
@@ -64,7 +69,8 @@ const payOrder = async (req, res) => {
           await cart.findOneAndDelete({ userId: item.userId });
           const bookedTicket = await ticket
             .findById(newTicket._id)
-            .populate("monumentId");
+            .populate("monumentId")
+            .populate("userId");
           emailController(bookedTicket);
         })
       );

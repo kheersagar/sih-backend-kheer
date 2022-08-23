@@ -10,9 +10,8 @@ const EmailTransporter = (user, otp) => {
     to: user.email,
     subject: "Sending Email using Node.js",
     text: "That was easy!",
-    html: `
-      <div>
-        <h1>Hello ${user.email}!</h1>{" "}
+    html: `<div>
+        <h1>Hello ${user.email}!</h1>
         <h2>Your OTP is ${otp} valid only for 10mins</h2>
       </div>
     `,

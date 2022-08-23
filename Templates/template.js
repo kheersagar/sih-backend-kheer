@@ -148,10 +148,10 @@ const ticketTemplate = (data) => {
               </div>
               <div class="div-1-11">
                 <div class="col-6">
-                  <h5 class="div-1-12">Ticket Number</h5>
+                  <h5 class="div-1-12">Ticket ID</h5>
                 </div>
                 <div class="col-6">
-                  <h5>1234567898</h5>
+                  <h5>${data.ticketId}</h5>
                 </div>
               </div>
               <div class="div-1-11">

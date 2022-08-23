@@ -18,7 +18,7 @@ const emailController = async (data) => {
       });
     });
     if (abc) {
-      TicketEmail();
+      TicketEmail(data.userId.email);
     }
   } catch (err) {
     console.log(err);
