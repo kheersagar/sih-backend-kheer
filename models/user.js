@@ -50,7 +50,23 @@ var userSchema = new mongoose.Schema({
   idNumber: {
     type: String,
   },
+  verificationExpries: {
+    type: Date,
+    default: () => new Date(+new Date() + 10 * 60 * 1000),
+  },
+  registrationConfirmed: {
+    type: Boolean,
+    default: false,
+  },
 });
+
+userSchema.index(
+  { verificationExpries: 1 },
+  {
+    expireAfterSeconds: 0,
+    partialFilterExpression: { registrationConfirmed: false },
+  }
+);
 
 userSchema
   .virtual("password")

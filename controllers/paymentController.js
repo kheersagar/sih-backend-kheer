@@ -11,7 +11,12 @@ const getRazorpayKey = (req, res) => {
 
 const createOrder = async (req, res) => {
   const { amount, cartItems } = req.body;
-  console.log(cartItems);
+  cartItems.some((item) => {
+    if (!item.date) {
+      res.status(500).send("Date Not Found");
+      return;
+    }
+  });
   try {
     const instance = new Razorpay({
       key_id: process.env.RAZORPAY_KEY,
@@ -40,8 +45,6 @@ const payOrder = async (req, res) => {
     } = req.body;
     //
     try {
-      //
-      // console.log(req.body);
       const result = await Promise.all(
         cartItems.map(async (item) => {
           // console.log(item, "before");

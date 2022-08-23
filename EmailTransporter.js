@@ -10,12 +10,12 @@ const EmailTransporter = (user, otp) => {
     to: user.email,
     subject: "Sending Email using Node.js",
     text: "That was easy!",
-    html: `(
+    html: `
       <div>
-        <h1>Hello ${user}! Welcome You</h1>{" "}
+        <h1>Hello ${user.email}!</h1>{" "}
         <h2>Your OTP is ${otp} valid only for 10mins</h2>
       </div>
-    )`,
+    `,
   };
   transporter.sendMail(mailOptions, function (error, info) {
     console.log("called");

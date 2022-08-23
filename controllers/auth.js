@@ -3,21 +3,16 @@ var jwt = require("jsonwebtoken");
 var expressJwt = require("express-jwt");
 const { EmailTransporter } = require("../EmailTransporter");
 const { OtpController } = require("./OtpController");
-const {check, validationResult} = require("express-validator");
-const {Authclient} =require('google-auth-library');
-
-
-
+const { check, validationResult } = require("express-validator");
+const { Authclient } = require("google-auth-library");
 
 exports.signup = (req, res) => {
-
-const errors = validationResult(req)
-if(!errors.isEmpty()){
-  return res.status(422).json({
-    error: errors.array()[0].msg
-  })
-}
-
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(422).json({
+      error: errors.array()[0].msg,
+    });
+  }
 
   const user = new User(req.body);
   user.save((err, user) => {
@@ -49,6 +44,8 @@ exports.signin = (req, res) => {
         error: "email and password do not match",
       });
     }
+    if (user.registrationConfirmed === false)
+      return res.status(401).send("Verify your Email ID");
     //create token
     const token = jwt.sign({ _id: user._id }, "shhhh");
     // put token in cookie
@@ -70,31 +67,35 @@ exports.signout = (req, res) => {
 // protected routes
 exports.issignin = expressJwt({
   secret: "shhhh",
-  userProperty: "auth"
- });
+  userProperty: "auth",
+});
 
- //custom middlewares 
- exports.isAuthenticated = (req,res,next)=>{
-  let checker = req.auth ==req.auth._id;
-  if(!checker){
+//custom middlewares
+exports.isAuthenticated = (req, res, next) => {
+  let checker = req.auth == req.auth._id;
+  if (!checker) {
     return res.status(403).json({
-      error: "ACCESS DENIED"
-    })
+      error: "ACCESS DENIED",
+    });
   }
   next();
- }
+};
 
+exports.googlelogin = (req, res) => {
+  const client = new Authclient(
+    "770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com"
+  );
 
- exports.googlelogin =(req , res)=>{
-  const client = new Authclient("770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com")
-
-  const {tokenId} = req.body;
-  client.verifyIdToken({ idToken:  tokenId, audience:"770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com" })
-  .then(response=>{
-    const{email_verified, name, email}= response.payload;
-    console.log(response.payload)
-
-
-  })
-  console.log()
- }
+  const { tokenId } = req.body;
+  client
+    .verifyIdToken({
+      idToken: tokenId,
+      audience:
+        "770410488707-l26b3qoq3pvcco7je1dv2jkm5fcjum1g.apps.googleusercontent.com",
+    })
+    .then((response) => {
+      const { email_verified, name, email } = response.payload;
+      console.log(response.payload);
+    });
+  console.log();
+};
