@@ -14,13 +14,15 @@ const paymentRoutes = require("./routes/payement");
 const ticket = require("./models/ticket");
 const placesRoutes = require("./routes/places");
 const userRoutes = require("./routes/user");
+const adminRoutes = require("./routes/admin");
 const { mongoDbConnection } = require("./MongooseConnection");
 const user = require("./models/user");
 const { generateQrCode } = require("./utils/generateQrCode");
 const { TicketEmail } = require("./utils/TicketEmail");
 const userCart = require("./routes/cart");
 const { emailController } = require("./controllers/emailController");
-
+const temp = require("./Templates/temparary");
+const transporter = require("./email");
 // generate pdf
 app.use(expressLayouts);
 app.set("view engine", "ejs");
@@ -47,6 +49,7 @@ app.use("/places", placesRoutes);
 app.use("/payment", paymentRoutes);
 app.use("/user", userRoutes);
 app.use("/api", userCart);
+app.use("/admin", adminRoutes);
 
 app.get("/", (req, res) => {
   res.send("hello");
@@ -113,7 +116,23 @@ app.get("/q", async (req, res) => {
 });
 
 app.get("/email", (req, res) => {
-  emailController();
+  const temphtml = temp();
+  var mailOptions = {
+    from: "rahhar848@gmail.com",
+    to: "santparja@gmail.com",
+    subject: "Your E-Ticket",
+    text: "Have a Good Day!!",
+    html: temphtml,
+  };
+  transporter.sendMail(mailOptions, function (error, info) {
+    console.log("called");
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Email sent: " + info.response);
+      return true;
+    }
+  });
   res.send("hello");
 });
 

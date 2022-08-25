@@ -8,7 +8,6 @@ const TicketEmail = (email, filePath) => {
     to: email,
     subject: "Your E-Ticket",
     text: "Have a Good Day!!",
-    html: `<div>Please Download Your Ticket</div>`,
     attachments: [
       // {
       //   filename: "image-1.png",

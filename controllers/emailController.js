@@ -2,10 +2,12 @@ const { TicketEmail } = require("../utils/TicketEmail");
 var fs = require("fs");
 var pdf = require("html-pdf");
 const ticketTemplate = require("../Templates/template");
+const temp = require("../Templates/temparary");
 var options = { format: "Letter" };
 
 const emailController = async (data) => {
   var html = ticketTemplate(data);
+  // const html = temp(data);
   try {
     const abc = await new Promise((resolve, reject) => {
       pdf.create(html, options).toFile("./ticket.pdf", function (err, res) {
