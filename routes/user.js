@@ -16,4 +16,5 @@ router.get("/getProfile/:id", getUserProfile);
 router.post("/verifyOtp", verifyOtp);
 router.post("/resendOtp", resendOtp);
 
+
 module.exports = router;

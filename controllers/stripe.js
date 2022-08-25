@@ -2,7 +2,8 @@ const cors= require("cors")
 const express = require("express")
 
   // add a stripe key
- const stripe = require("stripe")("sk_test_51LSItVSAgNM3L4fVICM8aQmtL2nb5imQ6Q0m6jVEjwNypFzlc16oNpi1m4VEeFmgHzP4nKGui9aU4K5jhQl18PmN00IWizvJip");
+  const stripe = require("stripe")("sk_test_51LSItVSAgNM3L4fVvzjctXc2QW5ZVLI8yl0G57D5vF01qR2f9lr4BNuDJfnmCcddgkZ4mgAahv3KNpnWNKFHsFO80098Mhp3LJ");
+ 
   const uuid =require("uuid/v4");
   const app = express();
 
