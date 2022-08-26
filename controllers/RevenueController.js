@@ -120,7 +120,6 @@ const dayWise = async (req, res) => {
         else if (item.userType.toLowerCase() === "adult")
           revenue += result[index].price;
         else revenue += result[index].cprice;
-        console.log(revenue);
       });
       arr[day] += Number(revenue);
     });
@@ -144,7 +143,6 @@ const monthWise = async (req, res) => {
         else if (item.userType.toLowerCase() === "adult")
           revenue += result[index].price;
         else revenue += result[index].cprice;
-        console.log(revenue);
       });
       arr[day] += Number(revenue);
     });
@@ -167,7 +165,6 @@ const yearWise = async (req, res) => {
         else if (item.userType.toLowerCase() === "adult")
           revenue += result[index].price;
         else revenue += result[index].cprice;
-        console.log(mp, revenue);
         mp[year] = mp[year] ? mp[year] + revenue : 0;
       });
     });
