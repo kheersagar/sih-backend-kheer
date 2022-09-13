@@ -2,7 +2,7 @@ const generateQrCode = (id, imagePath) => {
   console.log(imagePath);
   return new Promise((resolve, reject) => {
     const { spawn } = require("child_process");
-    const pythonProcess = spawn("python", ["./SIH22.py", id, imagePath]);
+    const pythonProcess = spawn("python", ["-u","./SIH22.py", id, imagePath]);
 
     pythonProcess.stderr.on("data", (data) => {
       console.log(data.toString());
