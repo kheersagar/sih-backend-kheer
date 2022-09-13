@@ -1,3 +1,4 @@
+const { verify } = require("jsonwebtoken");
 const ticket = require("../models/ticket");
 const user = require("../models/user");
 
@@ -30,4 +31,18 @@ const updateProfile = async (req, res) => {
     res.status(500).send(err.message);
   }
 };
-module.exports = { getUserTicket, getUserProfile, updateProfile };
+const LoginAdmin = async (req, res) => {
+  const { email, userType, password } = req.body;
+  try {
+    const result = await user.create({
+      email,
+      role: userType,
+      password,
+      name: email,
+      confirmpassword: password,
+    });
+  } catch (err) {
+    console.log(err);
+  }
+};
+module.exports = { getUserTicket, getUserProfile, updateProfile, LoginAdmin };

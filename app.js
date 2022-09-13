@@ -7,7 +7,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-
+let pdf = require("html-pdf");
 const app = express();
 const authRoutes = require("./routes/auth");
 const paymentRoutes = require("./routes/payement");
@@ -23,6 +23,7 @@ const userCart = require("./routes/cart");
 const { emailController } = require("./controllers/emailController");
 const temp = require("./Templates/temparary");
 const transporter = require("./email");
+const ejs = require("ejs");
 // generate pdf
 app.use(expressLayouts);
 app.set("view engine", "ejs");
@@ -51,6 +52,29 @@ app.use("/user", userRoutes);
 app.use("/api", userCart);
 app.use("/admin", adminRoutes);
 
+app.get("/topState/:state", async (req, res) => {
+  const { state } = req.params;
+  const mp = new Map();
+  try {
+    const result = await ticket.find({}).populate("monumentId");
+    result.map((resultItem, index) => {
+      [resultItem.monumentId].map((item) => {
+        if (item.stateUT.toLowerCase() === state.toLowerCase()) {
+          mp[item.name] += 1;
+        }
+      });
+    });
+    const sortable = Object.fromEntries(
+      Object.entries(mp).sort(([, a], [, b]) => b - a)
+    );
+    const labels = Object.keys(sortable);
+    const data = Object.values(sortable);
+    res.send(labels[0]);
+  } catch (err) {
+    console.log(err.message);
+    res.send(err.message);
+  }
+});
 app.get("/", (req, res) => {
   res.send("hello");
 });
@@ -137,7 +161,31 @@ app.get("/email", (req, res) => {
 });
 
 //qr-scanner
-
+app.get("/generateReport", (req, res) => {
+  ejs.renderFile(path.join(__dirname, "views", "pdf-html.ejs"), (err, data) => {
+    if (err) {
+      res.send(err);
+    } else {
+      let options = {
+        height: "11.25in",
+        width: "8.5in",
+        header: {
+          height: "20mm",
+        },
+        footer: {
+          height: "20mm",
+        },
+      };
+      pdf.create(data, options).toFile("report.pdf", function (err, data) {
+        if (err) {
+          res.send(err);
+        } else {
+          res.send("File created successfully");
+        }
+      });
+    }
+  });
+});
 //port
 const port = process.env.PORT || 8000;
 //starting a server

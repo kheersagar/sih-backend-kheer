@@ -2,6 +2,7 @@ const {
   getUserTicket,
   getUserProfile,
   updateProfile,
+  LoginAdmin,
 } = require("../controllers/user");
 const { getAllUsers } = require("../controllers/cart");
 const { verifyOtp, resendOtp } = require("../controllers/OtpController");
@@ -15,6 +16,6 @@ router.post("/updateProfile", updateProfile);
 router.get("/getProfile/:id", getUserProfile);
 router.post("/verifyOtp", verifyOtp);
 router.post("/resendOtp", resendOtp);
-
+router.post("/admin/login", LoginAdmin);
 
 module.exports = router;
