@@ -10,8 +10,8 @@ const generateQrCode = (id, imagePath) => {
     });
     pythonProcess.stdout.on("data", (data) => {
       console.log("result");
-      console.log(data.toString())
-      resolve(data.toString());
+      console.log(data)
+      resolve(data);
     });
     pythonProcess.on("exit", (code) => {
       console.log(`code with ${code}`);
