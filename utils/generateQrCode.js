@@ -10,6 +10,7 @@ const generateQrCode = (id, imagePath) => {
     });
     pythonProcess.stdout.on("data", (data) => {
       console.log("result");
+      console.log(data.toString())
       resolve(data.toString());
     });
     pythonProcess.on("exit", (code) => {
