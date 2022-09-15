@@ -64,7 +64,7 @@ const payOrder = async (req, res) => {
           );
           const temp = await ticket.updateMany(
             { _id: newTicket._id },
-            { qr: qr}
+            { qr: qr.toString()}
           );
           await cart.findOneAndDelete({ userId: item.userId });
           const bookedTicket = await ticket
