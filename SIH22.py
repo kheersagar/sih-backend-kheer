@@ -8,5 +8,5 @@ qrcode.to_artistic(background= sys.argv[2], target='SIH221.JPG', scale=10, dark=
 with open("SIH221.JPG", "rb") as image2string:
     converted_string = base64.b64encode(image2string.read()).decode('ascii')
     image_data = 'data:image/png;base64,{}'.format(converted_string)
-print(image_data)
+print(image_data, flush=True)
 # print("result with hello")
