@@ -79,13 +79,13 @@ app.get("/", (req, res) => {
   res.send("hello");
 });
 app.get("/generate-qr", (req, res) => {
-  const value = `{
-    key1: value1,
-    key2: value2,
-    key2: value2,
-    key2: value2,   ,
- }`;
   try {
+    const value = `{
+      key1: value1,
+      key2: value2,
+      key2: value2,
+      key2: value2,   ,
+   }`;
     const background = fs.readFileSync("./assets/monuments/test.jpg");
     var options = {
       text: value,
@@ -104,25 +104,9 @@ app.get("/generate-qr", (req, res) => {
     };
     var qrcode = new QRCode(options);
     qrcode.saveImage({
-      path: "./Qr-code/users/qr.png", // save path
+      path: "./SIH221.JPG", // save path
     });
     qrcode.toDataURL().then((data) => {
-      // console.log(data);
-      // to add qr code to user details
-      user.findByIdAndUpdate(
-        "62ede2c3db94e51d3c623ebf",
-        {
-          $push: {
-            purchases: {
-              qr: data,
-            },
-          },
-        },
-        (err, result) => {
-          if (err) console.log(err);
-          else console.log(result);
-        }
-      );
     });
   } catch (err) {
     res.status(400).send(err.message);

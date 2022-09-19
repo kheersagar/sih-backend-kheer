@@ -4,7 +4,8 @@ const ticket = require("../models/ticket");
 const path = require("path");
 const { generateQrCode } = require("../utils/generateQrCode");
 const { emailController } = require("./emailController");
-
+const QRCode = require("easyqrcodejs-nodejs");
+const fs = require("fs");
 const getRazorpayKey = (req, res) => {
   res.send({ key: process.env.RAZORPAY_KEY });
 };
@@ -58,21 +59,45 @@ const payOrder = async (req, res) => {
           // console.log(item, "after");
           delete item._id;
           const newTicket = await ticket.create(item);
-          const qr = await generateQrCode(
-            `https://qr-monument.vercel.app/getTicketDetails/${newTicket._id}`,
-            path.join("qr_images", imagePath)
-          );
-          const temp = await ticket.updateMany(
-            { _id: newTicket._id },
-            { qr: qr.toString()}
-          );
-          await cart.findOneAndDelete({ userId: item.userId });
-          const bookedTicket = await ticket
-            .findById(newTicket._id)
-            .populate("monumentId")
-            .populate("userId");
-          emailController(bookedTicket);
+          // const qr = await generateQrCode(
+          //   `https://qr-monument.vercel.app/getTicketDetails/${newTicket._id}`,
+          //   path.join("qr_images", imagePath)
+          // );
+          //
+          const background = fs.readFileSync(path.join(__dirname,"../","qr_images", imagePath));
+          var options = {
+            text: `https://qr-monument.vercel.app/getTicketDetails/${newTicket._id}`,
+            width: 360,
+            height: 360,
+            dotScale: 0.4,
+            backgroundImage: background,
+            backgroundImageAlpha: 1,
+            autoColor: true,
+            correctLevel: QRCode.CorrectLevel.H,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            dotScaleTiming_H: 0.1,
+            dotScaleTiming_V: 0.1,
+            quality: 1,
+          };
+          var qrcode = new QRCode(options);
+          qrcode.saveImage({
+            path: "./SIH221.JPG", // save path
+          });
+          qrcode.toDataURL().then(async (data) => {
+            const temp = await ticket.updateMany(
+              { _id: newTicket._id },
+              { qr: data}
+            );
+            await cart.findOneAndDelete({ userId: item.userId });
+            const bookedTicket = await ticket
+              .findById(newTicket._id)
+              .populate("monumentId")
+              .populate("userId");
+            emailController(bookedTicket);
+          });
         })
+          //
       );
       //
       res.send({
